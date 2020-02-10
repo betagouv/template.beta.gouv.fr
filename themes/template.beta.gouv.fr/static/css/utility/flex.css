@@ -1,0 +1,23 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: --smaller-than-tablet) {
+  .flex-row {
+    flex-direction: column;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-ai-center {
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+public
+themes/template.beta.gouv.fr/static/node_modules
+themes/template.beta.gouv.fr/static/dist
+
+.DS_Store
+.AppleDouble
+.LSOverride

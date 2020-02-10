@@ -1,0 +1,78 @@
+body {
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--darkest-grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+  color: currentColor;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.125em;
+}
+
+h2 {
+  font-size: 2.375em;
+  line-height: 1.25em;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.375em;
+  font-family: var(--font-family-default);
+}
+
+h6 {
+  font-size: 1em;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+a {
+  text-decoration-skip-ink: none;
+  text-decoration-color: var(--link-underline-color);
+  text-decoration-thickness: var(--link-underline-thickness);
+  text-underline-offset: var(--link-underline-offset);
+}
+
+a:hover {
+  background-color: var(--link-hover-background-color);
+}
+
+blockquote {
+  margin: 0;
+  padding: var(--spacing-xxs) var(--spacing-m);
+  background-color: var(--blockquote-background-color);
+  border-left: var(--blockquote-border-width) solid var(--blockquote-border-color);
+}

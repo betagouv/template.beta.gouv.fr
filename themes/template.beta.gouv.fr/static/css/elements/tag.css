@@ -1,0 +1,15 @@
+.tag,
+a.tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  background-color: var(--tag-background-color);
+  border-radius: 0.25em;
+  padding: var(--tag-padding);
+  margin: var(--tag-margin);
+  text-decoration: none;
+}
+
+.tag svg + span {
+  margin-left: var(--spacing-xxs);
+}

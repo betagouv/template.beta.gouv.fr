@@ -1,0 +1,8 @@
+{{ if .Params.Hero }}
+<section class="hero {{ .Params.Heroclass }}">
+  <div class="container">
+    {{ with .Title }}<h1 class="hero__title">{{ . }}</h1> {{ end }}
+    {{ with .Description }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+  </div>
+</section>
+{{ end }}

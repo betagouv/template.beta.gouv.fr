@@ -1,0 +1,44 @@
+.documentation .container {
+  display: flex;
+}
+
+.documentation__sidebar {
+  flex-basis: 15em;
+  flex-shrink: 0;
+}
+
+.documentation__links {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-bottom);
+  padding: var(--spacing-m);
+}
+
+.documentation__link + .documentation__link {
+  margin-top: var(--spacing-xs);
+}
+
+.documentation__link--active {
+  font-weight: 700;
+  position: relative;
+}
+
+.documentation__link--active::before {
+  content: "●";
+  color: var(--primary);
+  position: absolute;
+  left: -1em;
+  font-weight: 700;
+}
+
+.documentation__sidebar + .documentation__content {
+  margin-left: var(--spacing-l);
+}
+
+.documentation__content dt {
+  font-family: var(--font-family-title);
+  font-weight: 700;
+  color: var(--text-color-default);
+}

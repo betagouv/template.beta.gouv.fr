@@ -1,0 +1,70 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "type": "color",
+    "category": "colors"
+  },
+  "props": {
+    "PRIMARY": {
+      "value": "{!COBALT}"
+    },
+    "PRIMARY_DARK": {
+      "value": "{!PRUSSIAN_BLUE}"
+    },
+    "SECONDARY": {
+      "value": "{!DARK_ORCHID}"
+    },
+    "SECONDARY_DARK": {
+      "value": "{!VIVID_VIOLET}"
+    },
+    "WHITE": {
+      "value": "{!WHITE}"
+    },
+    "LIGHTEST_GREY": {
+      "value": "{!LAVENDER}"
+    },
+    "LIGHTER_GREY": {
+      "value": "{!PATTENS_BLUE}"
+    },
+    "LIGHT_GREY": {
+      "value": "{!LINK_WATER}"
+    },
+    "GREY": {
+      "value": "{!HEATHER}"
+    },
+    "DARK_GREY": {
+      "value": "{!BALI_HAI}"
+    },
+    "DARKER_GREY": {
+      "value": "{!KASHMIR_BLUE}"
+    },
+    "DARKEST_GREY": {
+      "value": "{!ELEPHANT}"
+    },
+    "BLACK": {
+      "value": "{!NERO}"
+    },
+    "DANGER": {
+      "value": "{!CINNABAR}"
+    },
+    "SUCCESS": {
+      "value": "{!MALACHITE}"
+    },
+    "INFO": {
+      "value": "{!DEEP_SKY_BLUE}"
+    },
+    "WARNING": {
+      "value": "{!AMBER}"
+    },
+    "GRADIENT": {
+      "value": "linear-gradient(to right, {!CERULEAN_BLUE}, {!PELOROUS})",
+      "type": "background"
+    },
+    "GRADIENT_LIGHT": {
+      "value": "linear-gradient(to right, {!LIGHT_STEEL_BLUE}, {!ONAHAU})",
+      "type": "background"
+    }
+  }
+}

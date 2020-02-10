@@ -1,0 +1,42 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "category": "cards"
+  },
+  "props": {
+    "CARD_PADDING": {
+      "value": "{!SPACING_M}",
+      "type": "padding"
+    },
+    "CARD_BORDER_RADIUS": {
+      "value": "{!BORDER_RADIUS}",
+      "type": "border-radius"
+    },
+    "CARD_IMAGE_SIZE": {
+      "value": "3em",
+      "type": "size"
+    },
+    "CARD_TITLE_SIZE": {
+      "value": "1.5em",
+      "type": "font-size"
+    },
+    "CARD_TITLE_SIZE_SMALL": {
+      "value": "1.25em",
+      "type": "font-size"
+    },
+    "FEATURE_CARD_PADDING": {
+      "value": "{!SPACING_XS}",
+      "type": "padding"
+    },
+    "FEATURE_CARD_TITLE_COLOR": {
+      "value": "{!COBALT}",
+      "type": "color"
+    },
+    "FEATURE_CARD_BORDER_SIZE": {
+      "value": "2px",
+      "type": "border-width"
+    }
+  }
+}

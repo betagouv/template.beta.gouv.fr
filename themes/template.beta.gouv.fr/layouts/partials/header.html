@@ -1,0 +1,20 @@
+<header class="main-header" role="banner">
+  <a class="main-header__link" href="/">
+    <img class="main-header__logo" src="/img/logo-marianne.svg" alt="" />
+    template.beta.gouv.fr
+  </a>
+  <nav class="site-nav" role="navigation">
+    <input type="checkbox" class="site-nav__toggle" id="site-nav__toggle" aria-hidden="true" tabindex="-1" />
+    <label class="site-nav__toggle-label" for="site-nav__toggle" aria-hidden="true" tabindex="-1">
+      <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
+      menu
+    </label>
+    <ul class="site-nav__links">
+      {{ range .Site.Menus.main }}
+      <li class="site-nav__item">
+        <a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

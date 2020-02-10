@@ -1,0 +1,309 @@
+---
+title: "Élements"
+date: 2020-01-09T03:08:37+01:00
+menu:
+  main:
+    weight: 1
+hero: true
+heroclass: "bg--gradient"
+---
+
+<div class="elements">
+  <section class="section colors">
+    <div class="container">
+      <h2>Colors</h2>
+      <div class="row">
+        {{< color title="Primary Dark" colorcode="#002F75" bgclass="bg--primary-dark" >}}
+        {{< color title="Primary" colorcode="#0048B3" bgclass="bg--primary" >}}
+        {{< color title="Secondary" colorcode="#A828D6" bgclass="bg--secondary" >}}
+        {{< color title="Secondary Dark" colorcode="#7A408E" bgclass="bg--secondary-dark" >}}
+      </div>
+      <div class="row">
+        {{< color title="Gradient" colorcode="#264EB6/#24A2CA" bgclass="bg--gradient" >}}
+        {{< color title="Gradient Light" colorcode="#B8C8E0/#C2DFED" bgclass="bg--gradient-light" >}}
+      </div>
+      <div class="row">
+        {{< color title="White" colorcode="#FFFFFF" bgclass="bg--white" >}}
+        {{< color title="Lightest Grey" colorcode="#F7FAFD" bgclass="bg--lightest-grey" >}}
+        {{< color title="Lighter Grey" colorcode="#EBEFF3" bgclass="bg--lighter-grey" >}}
+        {{< color title="Light Grey" colorcode="#C9D3DF" bgclass="bg--light-grey" >}}
+        {{< color title="Grey" colorcode="#ADB9C9" bgclass="bg--grey" >}}
+        {{< color title="Dark Grey" colorcode="#8393A7" bgclass="bg--dark-grey" >}}
+        {{< color title="Darker Grey" colorcode="#53657D" bgclass="bg--darker-grey" >}}
+        {{< color title="Darkest Grey" colorcode="#26353F" bgclass="bg--darkest-grey" >}}
+        {{< color title="Black" colorcode="#1C1C1C" bgclass="bg--black" >}}
+      </div>
+      <div class="row">
+        {{< color title="Danger" colorcode="#DC3545" bgclass="bg--danger" >}}
+        {{< color title="Success" colorcode="#17BD3D" bgclass="bg--success" >}}
+        {{< color title="Info" colorcode="#A828D6" bgclass="bg--info" >}}
+        {{< color title="Warning" colorcode="#FFC107" bgclass="bg--warning" >}}
+      </div>
+    </div>
+  </section>
+  <section class="section typography">
+    <div class="container">
+      <h2>Typographie</h2>
+      <dl>
+        <dt>H1</dt>
+        <dd><h1>Hayes Valley Studio</h1></dd>
+      </dl>
+      <dl>
+        <dt>H2</dt>
+        <dd><h2>Hayes Valley Studio</h2></dd>
+      </dl>
+      <dl>
+        <dt>H3</dt>
+        <dd><h3>Hayes Valley Studio</h3></dd>
+      </dl>
+      <dl>
+        <dt>H4</dt>
+        <dd><h4>Hayes Valley Studio</h4></dd>
+      </dl>
+      <dl>
+        <dt>H5</dt>
+        <dd><h5>Hayes Valley Studio</h5></dd>
+      </dl>
+      <dl>
+        <dt>SMALL</dt>
+        <dd><small>Hayes Valley Studio</small></dd>
+      </dl>
+      <dl>
+        <dt>LINK</dt>
+        <dd><a href="">Hayes Valley Studio</a></dd>
+      </dl>
+      <dl>
+        <dt>BLOCKQUOTE</dt>
+        <dd><blockquote><p>Hayes Valley Studio</p></blockquote</dd>
+      </dl>
+    </div>
+  </section>
+  <section class="section buttons">
+    <div class="container">
+      <h2>Buttons</h2>
+      <dl>
+        <dt>DEFAULT</dt>
+        <dd>
+          <button class="button primary">Primary</button>
+          <button class="button secondary">Secondary</button>
+          <button class="button alternate">Alternate</button>
+          <button class="button gradient">Gradient</button>
+        </dd>
+      </dl>
+      <dl>
+        <dt>HOVER</dt>
+        <dd>
+          <button class="button primary hover">Primary</button>
+          <button class="button secondary hover">Secondary</button>
+          <button class="button alternate hover">Alternate</button>
+          <button class="button gradient hover">Gradient</button>
+        </dd>
+      </dl>
+      <dl>
+        <dt>DISABLED</dt>
+        <dd>
+          <button class="button primary" disabled=disabled>Primary</button>
+          <button class="button secondary" disabled=disabled>Secondary</button>
+          <button class="button alternate" disabled=disabled>Alternate</button>
+          <button class="button gradient" disabled=disabled>Gradient</button>
+        </dd>
+      </dl>
+    </div>
+  </section>
+  <section class="section icon-buttons">
+    <div class="container">
+      <h2>Icon buttons</h2>
+      <dl>
+        <dt>DEFAULT</dt>
+        <dd>
+          <button class="button primary">
+            <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#star"></use></svg>
+            Primary
+          </button>
+          </button>
+        </dd>
+      </dl>
+      <dl>
+        <dt>HOVER</dt>
+        <dd>
+          <button class="button primary hover">
+            <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#cloud-upload"></use></svg>
+            Primary
+          </button>
+        </dd>
+      </dl>
+      <dl>
+        <dt>DISABLED</dt>
+        <dd>
+          <button class="button primary" disabled=disabled>
+            <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#circle-checked"></use></svg>
+            Primary
+          </button>
+        </dd>
+      </dl>
+    </div>
+  </section>
+  <section class="section secondary-menu">
+    <div class="container">
+      <h2>Secondary menu</h2>
+      <a href="/" class="site-nav__button">api.gouv.fr</a>
+    </div>
+  </section>
+  <section class="section forms">
+    <div class="container">
+      <div class="form__container">
+        <h2>Forms</h2>
+        <div class="form__group">
+          <label for="default">Label</label>
+          <input id="default" type="text" placeholder="Placeholder" />
+        </div>
+        <div class="form__group">
+          <label for="focus">Focus</label>
+          <input id="focus" class="focus" type="text" placeholder="Placeholder" />
+        </div>
+        <div class="form__group">
+          <label for="success">Success</label>
+          <input id="success" type="text" class="success" placeholder="Placeholder" />
+        </div>
+        <div class="form__group">
+          <label for="error">Error</label>
+          <input id="error" type="text" class="error" placeholder="Placeholder" />
+        </div>
+        <div class="form__group">
+          <label for="required" class="required">Required</label>
+          <input id="required" type="text" placeholder="Placeholder" />
+        </div>
+        <div class="form__group">
+          <label for="dropdown">Dropdown</label>
+          <select id="dropdown">
+            <option>Sélectionnez une option...</option>
+            <option>Oui</option>
+            <option>Non</option>
+            <option>Peut-être</option>
+          </select>
+        </div>
+        <div class="form__group flex-row fieldsets">
+          <fieldset>
+            <legend>Checkbox</legend>
+            <div class="input__group">
+              <input type="checkbox" name="checkbox" id="checkbox-default" value="0" /><label for="checkbox-default">Default</label>
+            </div>
+            <div class="input__group">
+              <input type="checkbox" name="checkbox" id="checkbox-checked" value="1" checked/><label for="checkbox-checked">Checked</label>
+            </div>
+            <div class="input__group">
+              <input type="checkbox" name="checkbox" id="checkbox-disabled" value="2" disabled=disabled /><label for="checkbox-disabled">Disabled</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Radio button</legend>
+            <div class="input__group">
+              <input type="radio" name="radio" id="radio-default" value="0" /><label for="radio-default">Default</label>
+            </div>
+            <div class="input__group">
+              <input type="radio" name="radio" id="radio-checked" value="1" checked /><label for="radio-checked">Checked</label>
+            </div>
+            <div class="input__group">
+              <input type="radio" name="radio" id="radio-disabled" value="2" disabled=disabled /><label for="radio-disabled">Disabled</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Toggle button</legend>
+            <div class="input__group">
+              <input type="checkbox" class="switch" name="switch" id="switch-default" value="0" /><label for="switch-default">Off</label>
+            </div>
+            <div class="input__group">
+              <input type="checkbox" class="switch" name="switch" id="switch-checked" value="1" checked/><label for="switch-checked">On</label>
+            </div>
+            <div class="input__group">
+              <input type="checkbox" class="switch" name="switch" id="switch-disabled" value="2" disabled=disabled /><label for="switch-disabled">Disabled</label>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section tags">
+    <div class="container">
+      <h2>Tooltip</h2>
+      <span class="tooltip tooltip-right" data-content="Helper text"><svg class="icon" viewBox="0 0 24 24"><use xlink:href="#question-circle"></use></svg></span>
+    </div>
+  </section>
+  <section class="section tags">
+    <div class="container">
+      <h2>Tags</h2>
+      <a class="tag" href="#">Brouillon</a>
+      <div class="tag">
+        <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#unlock">&nbsp;
+        <span>Accès libre</span>
+      </div>
+    </div>
+  </section>
+  <section class="section tables">
+    <div class="container">
+      <h2>Tables</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Catégories</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Corps</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Grade</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Emplois</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Fonctionnels</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Groupe dans un emploi fonctionnel</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Grilles</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Échelons</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Indices</td>
+            <td>Nomenclature RCC</td>
+          </tr>
+          <tr>
+            <td>Spécialités</td>
+            <td>Nomenclature militaire</td>
+          </tr>
+          <tr>
+            <td>Grades militaires</td>
+            <td>Nomenclature militaire</td>
+          </tr>
+          <tr>
+            <td>Hiérarchie</td>
+            <td>Nomenclature militaire</td>
+          </tr>
+          <tr>
+            <td>Appelations</td>
+            <td>Nomenclature militaire</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
