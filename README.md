@@ -61,6 +61,6 @@ src
 
 ## Licence
 
-2019 DINSIC
+2020 DINUM
 
 Cette application est publiée sous [licence MIT](LICENSE).
