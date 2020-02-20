@@ -1,43 +1,32 @@
-# template.beta.gouv.fr
+# Template.beta.gouv.fr
 
-Template CSS ouvert à tous, à destination des équipes betagouv et etatlab.
+**Qu'est ce que c'est :** un template CSS ouvert à tous, à destination des équipes betagouv & friends.
 
 [![npm version](https://badgen.net/npm/v/template.beta.gouv.fr)](https://www.npmjs.com/package/template.beta.gouv.fr)
 
 ## Utiliser template.beta.gouv
 
-### Structure du template
-
-- main.min.css : 
-- font.css : 
-- font : 
-- img :
-
-### Fichier plats
+### Télécharger les fichier plats
 
 Vous pouvez télécharger les sources du template minifiées [ici](dist/).
 
-### HTML Import
+### Faire un import HTML
 
-Vous pouvez faire des imports HTML du template en ajoutant ces liens entre les balises `<head></head>` de votre `index.html` :
+Vous pouvez faire des imports HTML du template en ajoutant ces liens entre les balises `<head>` de votre fichier `index.html` :
 
 ```html
 <!-- main CSS -->
 <link href="https://unpkg.com/template.beta.gouv.fr@1.3.1/dist/main.min.css" rel="stylesheet">
-<!-- fonts -->
-<link href="https://unpkg.com/template.beta.gouv.fr@1.3.1/dist/main.min.css" rel="stylesheet">
-<!-- icons -->
-<link href="https://unpkg.com/template.beta.gouv.fr@1.3.1/dist/main.min.css" rel="stylesheet">
 ```
 
-### NPM
+### Installer le paquet npm
 
-Vous pouvez installer le package sur votre projet
+Vous pouvez installer le paquet npm sur votre projet :
 ```bash
   npm install --save template.beta.gouv.fr
 ```
  
-Puis importer le fichier dans votre projet
+Puis importer le fichier dans votre projet :
 ```
   import 'template.data.gouv.fr/dist/main.css'
 ```
@@ -48,16 +37,26 @@ Vous êtes bien entendu libres (et encouragés!) de cloner ce repository, le mod
 
 ### Structure du repos
 ```
-www
-dist
-src 
+site : les fichiers du site vitrine de template 
+dist : les fichiers du template minifiés
+src : le code source non minifié
 ```
 
-### Générer les sources
+### Générer les template
 
+Pour build le template :
+```bash
+  npm run build
+```
 
 ### Contribuer
 
+N'hésitez pas a passer un coup de linter et à corriger les erreurs si il y en a :
+```bash
+  npm run lint
+```
+
+Une fois votre code propre, ouvrez une PR sur ce repos.
 
 ## Licence
 
