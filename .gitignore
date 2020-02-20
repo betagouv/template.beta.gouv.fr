@@ -3,6 +3,8 @@
 .AppleDouble
 .LSOverride
 
+package-lock.json
+
 # Logs
 logs
 *.log
