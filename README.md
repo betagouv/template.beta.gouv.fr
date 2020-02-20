@@ -2,7 +2,7 @@
 
 **Qu'est ce que c'est :** un template CSS ouvert à tous, à destination des équipes betagouv & friends.
 
-[![npm version](https://badgen.net/npm/v/template.beta.gouv.fr)](https://www.npmjs.com/package/template.beta.gouv.fr)
+![npm version](https://badgen.net/npm/v/template.beta.gouv.fr)
 
 ## Utiliser template.beta.gouv
 
@@ -16,7 +16,7 @@ Vous pouvez faire des imports HTML du template en ajoutant ces liens entre les b
 
 ```html
 <!-- main CSS -->
-<link href="https://unpkg.com/template.beta.gouv.fr@1.3.1/dist/main.min.css" rel="stylesheet">
+<link href="https://unpkg.com/template.beta.gouv.fr@latest/dist/template.min.css" rel="stylesheet">
 ```
 
 ### Installer le paquet npm
@@ -28,7 +28,7 @@ Vous pouvez installer le paquet npm sur votre projet :
  
 Puis importer le fichier dans votre projet :
 ```
-  import 'template.data.gouv.fr/dist/main.css'
+  import 'template.data.gouv.fr/dist/template.css'
 ```
 
 ## Construire votre propre version du template
