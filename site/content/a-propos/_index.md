@@ -1,11 +1,11 @@
 ---
 title: "À propos"
 date: 2020-01-10T02:58:46+01:00
-draft: true
+draft: false
 layout: single
 content: "A propos de beta.gouv.fr"
 hero: true
-heroclass: "bg--gradient-light"
+heroclass: "tpl-bg--gradient-light"
 ---
 
 ## À quoi sert template.beta.gouv.fr ?

@@ -1,8 +1,8 @@
 {{ if .Params.Hero }}
-<section class="hero {{ .Params.Heroclass }}">
-  <div class="container">
-    {{ with .Title }}<h1 class="hero__title">{{ . }}</h1> {{ end }}
-    {{ with .Description }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+<section class="tpl-hero {{ .Params.Heroclass }}">
+  <div class="tpl-container">
+    {{ with .Title }}<h1 class="tpl-hero__title">{{ . }}</h1> {{ end }}
+    {{ with .Description }}<p class="tpl-hero__subtitle">{{ . }}</p>{{ end }}
   </div>
 </section>
 {{ end }}

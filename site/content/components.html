@@ -5,50 +5,50 @@ menu:
   main:
     weight: 2
 hero: true
-heroclass: "bg--gradient"
+heroclass: "tpl-bg--gradient"
 ---
 
 <div class="components">
-  <section class="section alerts">
-    <div class="container">
+  <section class="tpl-section alerts">
+    <div class="tpl-container">
       <h2>Alerts</h2>
           {{< notification content="Notification : Notification message" >}}
-        <pre><code>&lt;div class="notification">
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-notification">
   &lt;span>Notification&nbsp;: Notification message&lt;/span>
-  &lt;button class="close" aria-label="Fermer">
-    &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
+  &lt;button class="tpl-close" aria-label="Fermer">
+    &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
   &lt;/button>
 &lt;/div></code></pre>
-        {{< notification content="Success: Success message" type="success" >}}
-      <pre><code>&lt;div class="notification success">
+        {{< notification content="Success: Success message" type="tpl--success" >}}
+      <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-notification tpl--success">
 &lt;span>Success&nbsp;: Success message&lt;/span>
-&lt;button class="close" aria-label="Fermer">
-&lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
+&lt;button class="tpl-close" aria-label="Fermer">
+&lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
 &lt;/button>
 &lt;/div></code></pre>
-          {{< notification content="Error: Error message" type="danger" >}}
-        <pre><code>&lt;div class="notification error">
+          {{< notification content="Error: Error message" type="tpl--danger" >}}
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-notification tpl--error">
 &lt;span>Error&nbsp;: Error message&lt;/span>
-&lt;button class="close" aria-label="Fermer">
-&lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
+&lt;button class="tpl-close" aria-label="Fermer">
+&lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#circle-x">&lt;/use>&lt;/svg>
 &lt;/button>
 &lt;/div></code></pre>
     </div>
   </section>
-  <section class="section cards">
-    <div class="container">
+  <section class="tpl-section cards">
+    <div class="tpl-container">
       <h2>Cards</h2>
-      <div class="flex-row">
-        <div class="card shadow">
-          <div class="card__header">
-            <img class="card__image" alt="" src="/img/sirh.png" />
-            <h3 class="card__title">Nom de l’API</h3>
+      <div class="tpl-flex-row">
+        <div class="tpl-card tpl-shadow">
+          <div class="tpl-card__header">
+            <img class="tpl-card__image" alt="" src="/img/sirh.png" />
+            <h3 class="tpl-card__title">Nom de l’API</h3>
           </div>
-          <div class="card__content">
+          <div class="tpl-card__content">
             <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
           </div>
-          <div class="card__extra">
-            <dl>
+          <div class="tpl-card__extra">
+            <dl class="tpl-description-list">
               <div class="description__group">
                 <dt>Thème :</dt>
                 <dd>Emploi ; Entreprise</dd>
@@ -63,28 +63,28 @@ heroclass: "bg--gradient"
               </div>
             </dl>
           </div>
-          <div class="card__footer">
-            <a class="tag">
-              <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
+          <div class="tpl-card__footer">
+            <a class="tpl-tag">
+              <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
               <span>Accès libre</span>
             </a>
             <a class="tag">
-              <svg class="icon reliability">
+              <svg class="tpl-icon reliability">
                 <circle cx="5" cy="5" r="5" fill="#17BD3D" />
               </svg>
               <span>98% de disponibilité / 12 mois</span>
             </a>
           </div>
         </div>
-        <pre><code>&lt;div class="card shadow">
-  &lt;div class="card__header">
-    &lt;img class="card__image" alt="" src="../img/sirh.png">
-    &lt;h3 class="card__title">Nom de l’API&lt;/h3>
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="card shadow">
+  &lt;div class="tpl-card__header">
+    &lt;img class="tpl-card__image" alt="" src="../img/sirh.png">
+    &lt;h3 class="tpl-card__title">Nom de l’API&lt;/h3>
   &lt;/div>
-  &lt;div class="card__content">
+  &lt;div class="tpl-card__content">
     &lt;p>Récupérer la liste des entreprises classées par potentiel d’embauche&lt;/p>
   &lt;/div>
-  &lt;div class="card__extra">
+  &lt;div class="tpl-card__extra">
     &lt;dl>
       &lt;div class="description__group">
         &lt;dt>Thème&nbsp;:&lt;/dt>
@@ -100,13 +100,13 @@ heroclass: "bg--gradient"
       &lt;/div>
     &lt;/dl>
   &lt;/div>
-  &lt;div class="card__footer">
+  &lt;div class="tpl-card__footer">
     &lt;a class="tag">
-      &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">
+      &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">
       &lt;/use>&lt;/svg>&lt;span>Accès libre&lt;/span>
     &lt;/a>
     &lt;a class="tag">
-      &lt;svg class="icon reliability">
+      &lt;svg class="tpl-icon reliability">
         &lt;circle cx="5" cy="5" r="5" fill="#17BD3D">&lt;/circle>
       &lt;/svg>
       &lt;span>98% de disponibilité / 12 mois&lt;/span>
@@ -114,141 +114,141 @@ heroclass: "bg--gradient"
   &lt;/div>
 &lt;/div></code></pre>
       </div>
-      <div class="flex-row">
-        <div class="card portfolio-card">
-          <img class="card__cover" src="/img/index.jpg" alt=""/>
-          <div class="card__header">
-            <h3 class="card__title">Nom de la réalisation</h3>
+      <div class="tpl-flex-row">
+        <div class="tpl-card tpl-portfolio-card">
+          <img class="tpl-card__cover" src="/img/index.jpg" alt=""/>
+          <div class="tpl-card__header">
+            <h3 class="tpl-card__title">Nom de la réalisation</h3>
           </div>
         </div>
-        <pre><code>&lt;div class="card portfolio-card">
-  &lt;img class="card__cover" src="../img/index.jpg" alt="">
-  &lt;div class="card__header">
-    &lt;h3 class="card__title">Nom de la réalisation&lt;/h3>
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-card tpl-portfolio-card">
+  &lt;img class="tpl-card__cover" src="../img/index.jpg" alt="">
+  &lt;div class="tpl-card__header">
+    &lt;h3 class="tpl-card__title">Nom de la réalisation&lt;/h3>
   &lt;/div>
 &lt;/div></code></pre>
       </div>
-      <div class="flex-row">
-        <div class="card post-card">
-          <div class="card__header">
-            <h3 class="card__title">Titre de l'article</h3>
-            <div class="card__subtitle">Sous-titre de l'article</div>
+      <div class="tpl-flex-row">
+        <div class="tpl-card tpl-post-card">
+          <div class="tpl-card__header">
+            <h3 class="tpl-card__title">Titre de l'article</h3>
+            <div class="tpl-card__subtitle">Sous-titre de l'article</div>
           </div>
-          <div class="card__content">
+          <div class="tpl-card__content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           </div>
-          <div class="card__footer">
-            <a class="button primary" href="#">
+          <div class="tpl-card__footer">
+            <a class="tpl-button primary" href="#">
               Lire la suite
             </a>
           </div>
         </div>
-        <pre><code>&lt;div class="card post-card">
-  &lt;div class="card__header">
-    &lt;h3 class="card__title">Titre de l'article&lt;/h3>
-    &lt;div class="card__subtitle">Sous-titre de l'article&lt;/div>
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-card tpl-post-card">
+  &lt;div class="tpl-card__header">
+    &lt;h3 class="tpl-card__title">Titre de l'article&lt;/h3>
+    &lt;div class="tpl-card__subtitle">Sous-titre de l'article&lt;/div>
   &lt;/div>
-  &lt;div class="card__content">
+  &lt;div class="tpl-card__content">
     &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p>
   &lt;/div>
-  &lt;div class="card__footer">
-    &lt;a class="button primary" href="#">
+  &lt;div class="tpl-card__footer">
+    &lt;a class="tpl-button primary" href="#">
       Lire la suite
     &lt;/a>
   &lt;/div>
 &lt;/div></code></pre>
       </div>
-      <div class="flex-row">
-        <div class="card author-card">
-          <div class="card__header">
-            <h3 class="card__title">French</h3>
-            <div class="card__subtitle">Développeur</div>
+      <div class="tpl-flex-row">
+        <div class="tpl-card tpl-author-card">
+          <div class="tpl-card__header">
+            <h3 class="tpl-card__title">French</h3>
+            <div class="tpl-card__subtitle">Développeur</div>
           </div>
-          <div class="card__content">
+          <div class="tpl-card__content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           </div>
         </div>
-        <pre><code>&lt;div class="card author-card">
-  &lt;div class="card__header">
-    &lt;h3 class="card__title">French&lt;/h3>
-    &lt;div class="card__subtitle">Développeur&lt;/div>
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-card tpl-author-card">
+  &lt;div class="tpl-card__header">
+    &lt;h3 class="tpl-card__title">French&lt;/h3>
+    &lt;div class="tpl-card__subtitle">Développeur&lt;/div>
   &lt;/div>
-  &lt;div class="card__content">
+  &lt;div class="tpl-card__content">
     &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p>
   &lt;/div>
 &lt;/div></code></pre>
       </div>
-      <div class="flex-row">
-        <div class="card feature-card">
-          <div class="card__header">
-            <h3 class="card__title">
-              <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#unlock"></use></svg>
+      <div class="tpl-flex-row">
+        <div class="tpl-card tpl-feature-card">
+          <div class="tpl-card__header">
+            <h3 class="tpl-card__title">
+              <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock"></use></svg>
               Conditions</h3>
           </div>
-          <div class="card__content">
+          <div class="tpl-card__content">
             <p>API ouverte à tous</p>
           </div>
         </div>
-        <pre><code>&lt;div class="card feature-card">
-  &lt;div class="card__header">
-    &lt;h3 class="card__title">
-      &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">&lt;/use>&lt;/svg>
+        <pre class="tpl-pre"><code class="tpl-code">&lt;div class="tpl-card tpl-feature-card">
+  &lt;div class="tpl-card__header">
+    &lt;h3 class="tpl-card__title">
+      &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">&lt;/use>&lt;/svg>
       Conditions&lt;/h3>
   &lt;/div>
-  &lt;div class="card__content">
+  &lt;div class="tpl-card__content">
     &lt;p>API ouverte à tous&lt;/p>
   &lt;/div>
 &lt;/div></code></pre>
       </div>
     </div>
   </section>
-  <section class="section steps">
-    <div class="container">
+  <section class="tpl-section steps">
+    <div class="tpl-container">
       <h2>Steps</h2>
-      <nav class="steps" aria-label="steps">
-        <a href="#" class="step step--active">
-          <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use>
-          <h3 class="step__title step--active">1- Lancer une balle</h3>
-          <div class="step__path"></div>
+      <nav class="tpl-steps" aria-label="steps">
+        <a href="#" class="tpl-step tpl-step--active">
+          <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use>
+          <h3 class="tpl-step__title step--active">1- Lancer une balle</h3>
+          <div class="tpl-step__path"></div>
         </svg>
         </a>
-        <a href="#" class="step step--active">
-          <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use></svg>
-          <h3 class="step__title">2- Relancer une balle</h3>
-          <div class="step__path"></div>
+        <a href="#" class="tpl-step step--active">
+          <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use></svg>
+          <h3 class="tpl-step__title">2- Relancer une balle</h3>
+          <div class="tpl-step__path"></div>
         </a>
-        <a href="#" class="step step--current">
-          <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use></svg>
-          <h3 class="step__title">3- Re-relancer une balle</h3>
-          <div class="step__path"></div>
+        <a href="#" class="tpl-step step--current">
+          <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#dribbble"></use></svg>
+          <h3 class="tpl-step__title">3- Re-relancer une balle</h3>
+          <div class="tpl-step__path"></div>
         </a>
-        <a href="#" class="step">
-          <svg class="icon" viewBox="0 0 24 24"><use xlink:href="#bone"></use></svg>
-          <h3 class="step__title">4- Caresser le chien</h3>
-          <div class="step__path"></div>
+        <a href="#" class="tpl-step">
+          <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#bone"></use></svg>
+          <h3 class="tpl-step__title">4- Caresser le chien</h3>
+          <div class="tpl-step__path"></div>
         </a>
       </nav>
-      <pre><code>&lt;nav class="steps" aria-label="steps">
-  &lt;a href="#" class="step step--active">
-    &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>
-    &lt;/svg>&lt;h3 class="step__title step--active">1- Lancer une balle&lt;/h3>
-    &lt;div class="step__path">&lt;/div>
+      <pre class="tpl-pre"><code class="tpl-code">&lt;nav class="tpl-steps" aria-label="steps">
+  &lt;a href="#" class="tpl-step step--active">
+    &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>
+    &lt;/svg>&lt;h3 class="tpl-step__title step--active">1- Lancer une balle&lt;/h3>
+    &lt;div class="tpl-step__path">&lt;/div>
 
   &lt;/a>
-  &lt;a href="#" class="step step--active">
-    &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>&lt;/svg>
-    &lt;h3 class="step__title">2- Relancer une balle&lt;/h3>
-    &lt;div class="step__path">&lt;/div>
+  &lt;a href="#" class="tpl-step step--active">
+    &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>&lt;/svg>
+    &lt;h3 class="tpl-step__title">2- Relancer une balle&lt;/h3>
+    &lt;div class="tpl-step__path">&lt;/div>
   &lt;/a>
-  &lt;a href="#" class="step step--current">
-    &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>&lt;/svg>
-    &lt;h3 class="step__title">3- Re-relancer une balle&lt;/h3>
-    &lt;div class="step__path">&lt;/div>
+  &lt;a href="#" class="tpl-step step--current">
+    &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#dribbble">&lt;/use>&lt;/svg>
+    &lt;h3 class="tpl-step__title">3- Re-relancer une balle&lt;/h3>
+    &lt;div class="tpl-step__path">&lt;/div>
   &lt;/a>
-  &lt;a href="#" class="step">
-    &lt;svg class="icon" viewBox="0 0 24 24">&lt;use xlink:href="#bone">&lt;/use>&lt;/svg>
-    &lt;h3 class="step__title">4- Caresser le chien&lt;/h3>
-    &lt;div class="step__path">&lt;/div>
+  &lt;a href="#" class="tpl-step">
+    &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#bone">&lt;/use>&lt;/svg>
+    &lt;h3 class="tpl-step__title">4- Caresser le chien&lt;/h3>
+    &lt;div class="tpl-step__path">&lt;/div>
   &lt;/a>
 &lt;/nav></code></pre>
     </div>

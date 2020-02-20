@@ -1,22 +1,17 @@
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.elements dl {
+.elements .tpl-description-list {
   display: flex;
   align-items: flex-end;
 }
 
-.elements dt {
+.elements .tpl-description-list dt {
   flex-basis: 10em;
 }
 
-.elements dd {
+.elements .tpl-description-list dd {
   flex-grow: 1;
 }
 
-.colors .row + .row {
+.colors .tpl-flex-row + .tpl-flex-row {
   margin-top: var(--spacing-m);
 }
 
@@ -39,7 +34,7 @@
   border: 1px solid transparent;
 }
 
-.color__swatch.bg--white {
+.color__swatch.tpl-bg--white {
   border-color: var(--lighter-grey);
 }
 
@@ -52,37 +47,37 @@
   margin-bottom: 0;
 }
 
-.button.primary.hover {
+.tpl-button.primary.hover {
   background-color: var(--button-bg-primary-hover);
 }
 
-.button.secondary.hover {
+.tpl-button.secondary.hover {
   background-color: var(--button-bg-secondary-hover);
 }
 
-.button.alternate.hover {
+.tpl-button.alternate.hover {
   border-color: var(--button-border-alternate-hover);
 }
 
-.button.gradient.hover {
+.tpl-button.gradient.hover {
   background: linear-gradient(to right, var(--primary-dark), var(--primary));
 }
 
-.buttons dd,
-.icon-buttons dd {
+.buttons .tpl-description-list dd,
+.icon-buttons .tpl-description-list dd {
   display: flex;
 }
 
-.button + .button {
+.tpl-button + .tpl-button {
   margin-left: var(--spacing-m);
 }
 
-.icons .icon {
+.icons .tpl-icon {
   height: 2em;
   width: 2em;
 }
 
-.icons dl {
+.icons .tpl-description-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
   grid-template-rows: 1fr min-content;
@@ -98,12 +93,12 @@
   margin-bottom: var(--spacing-m);
 }
 
-.icons__group dt {
+ .tpl-description-list .icons__group dt {
   flex-basis: auto;
   order: 2;
 }
 
-.icons__group dd {
+.tpl-description-list .icons__group dd {
   order: 1;
 }
 
@@ -115,7 +110,7 @@ input.focus {
   justify-content: space-between;
 }
 
-.notification + .notification {
+.tpl-notification + .tpl-notification {
   margin-top: var(--spacing-xs);
 }
 
@@ -123,12 +118,12 @@ svg.reliability {
   fill: var(--success);
 }
 
-.cards .card {
+.cards .tpl-card {
   flex-basis: 20em;
   flex-shrink: 0;
 }
 
-pre {
+.tpl-pre {
   display: flex;
   align-items: stretch;
   flex-grow: 1;
@@ -136,6 +131,6 @@ pre {
   overflow-y: scroll;
 }
 
-.cards pre {
+.cards .tpl-pre {
   margin: var(--spacing-xs);
 }

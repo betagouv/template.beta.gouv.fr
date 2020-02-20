@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html itemscore="" itemtype="http://schema.org/WebPage" lang="fr">
   {{- partial "head.html" . -}}
-  <body>
+  <body class="tpl-body">
     {{ partial "icons.html" }}
     {{- partial "header.html" . -}}
-    <main id="content" role="main">
+    <main class="tpl-main" role="main">
       {{- partial "hero.html" . -}}
       {{- block "main" . }}{{- end }}
     </main>

@@ -1,4 +1,4 @@
-@import "template.css";
+@import "template.min.css";
 
 .row {
   display: flex;
