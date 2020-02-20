@@ -1,42 +1,42 @@
-.form__container {
+.tpl-form__container {
   max-width: var(--form-max-width);
 }
 
-.form__group {
+.tpl-form__group {
   display: flex;
   flex-direction: column;
 }
 
-.form__group + .form__group {
+.tpl-form__group + .tpl-form__group {
   margin-top: var(--spacing-s);
 }
 
-fieldset {
+.tpl-fieldset {
   border: 0;
   padding: 0;
   flex-shrink: 1;
 }
 
-legend,
-label {
+.tpl-legend,
+.tpl-label {
   text-transform: uppercase;
   font-size: 0.75em;
   color: var(--text-color-alternate);
   letter-spacing: 0.1em;
 }
 
-label {
+.tpl-label {
   position: relative;
 }
 
-fieldset label {
+.tpl-fieldset .tpl-label {
   font-size: 1em;
   color: var(--text-color-default);
   text-transform: none;
   letter-spacing: normal;
 }
 
-label.required::before {
+.tpl-label.tpl--required::before {
   content: '✱';
   color: var(--danger);
   font-weight: 700;
@@ -46,16 +46,16 @@ label.required::before {
   transform: translateX(-100%);
 }
 
-.input__group {
+.tpl-input__group {
   display: flex;
   align-items: center;
 }
 
-.input__group + .input__group {
+.tpl-input__group + .tpl-input__group {
   margin-top: var(--spacing-xs);
 }
 
-.input__group input + label {
+.tpl-input__group input + .tpl-label {
   margin-left: var(--spacing-xs);
 }
 
@@ -114,13 +114,13 @@ input[type="checkbox"]:checked::before {
   transition: transform 0.2s ease-out;
 }
 
-input[type="checkbox"].switch {
+input[type="checkbox"].tpl-switch {
   border-radius: 1em;
   width: 2.75em;
   transition: all 0.2 ease-out;
 }
 
-input[type="checkbox"].switch::before {
+input[type="checkbox"].tpl-switch::before {
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -133,17 +133,17 @@ input[type="checkbox"].switch::before {
   transition: transform 0.2s ease-out;
 }
 
-input[type="checkbox"]:disabled.switch::before {
+input[type="checkbox"]:disabled.tpl-switch::before {
   background-color: var(--grey);
 }
 
-input[type="checkbox"].switch:checked {
+input[type="checkbox"].tpl-switch:checked {
   border-color: var(--primary);
   background-color: var(--primary);
   transition: border-color 0.2s ease-in, background-color 0.2s ease-out;
 }
 
-input[type="checkbox"].switch:checked::before {
+input[type="checkbox"].tpl-switch:checked::before {
   background-color: var(--white);
   transform: translateX(50%);
   transition: transform 0.2s ease-out;
@@ -177,12 +177,12 @@ select {
   -moz-appearance: none;
 }
 
-input.success {
+input.tpl--success {
   border-color: var(--success);
   background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIyIDExLjA4VjEyYTEwIDEwIDAgMTEtNS45My05LjE0IiBzdHJva2U9IiMxN0JEM0QiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTIyIDRMMTIgMTQuMDFsLTMtMyIgc3Ryb2tlPSIjMTdCRDNEIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgo=') right 1em center no-repeat;
 }
 
-input.error {
+input.tpl--error {
   border-color: var(--danger);
   background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjI5IDMuODZMMS44MiAxOGEyIDIgMCAwMDEuNzEgM2gxNi45NGEyIDIgMCAwMDEuNzEtM0wxMy43MSAzLjg2YTIgMiAwIDAwLTMuNDIgMHYwek0xMiA5djRNMTIgMTZ2LjUiIHN0cm9rZT0iI0RDMzU0NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4K') right 1em center no-repeat;
 }

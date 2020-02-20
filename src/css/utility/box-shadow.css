@@ -1,7 +1,7 @@
-.shadow {
+.tpl-shadow {
   box-shadow: var(--box-shadow-default);
 }
 
-.shadow-bottom {
+.tpl-shadow--bottom {
   box-shadow: var(--box-shadow-bottom);
 }

@@ -1,4 +1,4 @@
-.panel {
+.tpl-panel {
   padding: var(--spacing-m);
   box-shadow: var(--box-shadow-default);
 }

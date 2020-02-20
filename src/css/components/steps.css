@@ -1,8 +1,8 @@
-.steps {
+.tpl-steps {
   display: flex;
 }
 
-a.step {
+a.tpl-step {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,21 +11,21 @@ a.step {
   text-decoration: none;
 }
 
-a.step:hover {
+a.tpl-step:hover {
   background: none;
 }
 
-.step--active,
-.step--current {
+.tpl-step--active,
+.tpl-step--current {
   opacity: 1;
 }
 
-.step .icon {
+.tpl-step .tpl-icon {
   height: 2em;
   width: 2em;
 }
 
-.step__title {
+.tpl-step__title {
   font-family: var(--font-family-default);
   font-size: 1em;
   font-weight: 400;
@@ -34,7 +34,7 @@ a.step:hover {
   flex-grow: 1;
 }
 
-.step__path {
+.tpl-step__path {
   height: var(--spacing-xxs);
   width: 100%;
   background-color: var(--primary);
@@ -43,7 +43,7 @@ a.step:hover {
   margin-top: var(--spacing-s);
 }
 
-.step__path::after {
+.tpl-step__path::after {
   content: "";
   display: block;
   border-radius: 50%;
@@ -56,32 +56,32 @@ a.step:hover {
   position: relative;
 }
 
-.step:last-child {
+.tpl-step:last-child {
   color: var(--darker-grey);
   text-decoration-color: var(--currentColor);
 }
 
-.step--current .step__path::after {
+.tpl-step--current .tpl-step__path::after {
   height: 1.5em;
   width: 1.5em;
 }
 
-.step--current .step__path {
+.tpl-step--current .tpl-step__path {
   background: linear-gradient(to right, var(--primary) 0%, var(--primary) 50%, var(--darker-grey) 50%, var(--darker-grey) 100%);
 }
 
-.step:first-child .step__path {
+.tpl-step:first-child .tpl-step__path {
   background: linear-gradient(to right, transparent 0%, transparent 50%, var(--darker-grey) 50%, var(--darker-grey) 100%);
 }
 
-.step--active:first-child .step__path {
+.tpl-step--active:first-child .tpl-step__path {
   background: linear-gradient(to right, transparent 0%, transparent 50%, var(--primary) 50%, var(--primary) 100%);
 }
 
-.step:last-child .step__path {
+.tpl-step:last-child .tpl-step__path {
   background: linear-gradient(to left, transparent 0%, transparent 50%, var(--darker-grey) 50%, var(--darker-grey) 100%);
 }
 
-.step:last-child .step__path::after {
+.tpl-step:last-child .tpl-step__path::after {
   background-color: var(--darker-grey);
 }

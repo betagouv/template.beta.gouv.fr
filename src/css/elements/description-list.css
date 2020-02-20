@@ -1,11 +1,11 @@
-dt {
+.tpl-description-list dt {
   color: var(--text-color-alternate);
 }
 
-dd {
+.tpl-description-list dd {
   margin: 0;
 }
 
-dd + dt {
+.tpl-description-list dd + dt {
   margin-top: var(--spacing-m);
 }

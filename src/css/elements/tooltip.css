@@ -1,12 +1,12 @@
-.tooltip {
+.tpl-tooltip {
   position: relative;
 }
 
-.tooltip-right::after {
+.tpl-tooltip-right::after {
   left: calc(100% + 1em);
 }
 
-.tooltip::before {
+.tpl-tooltip::before {
   opacity: 0;
   position: absolute;
   content: "";
@@ -14,14 +14,14 @@
   border: 0.5em solid transparent;
 }
 
-.tooltip-right::before {
+.tpl-tooltip-right::before {
   top: 0;
   left: calc(100% + 0.5em);
   border-left: 0;
   border-right-color: var(--black);
 }
 
-.tooltip::after {
+.tpl-tooltip::after {
   top: -0.75em;
   position: absolute;
   min-width: 10em;
@@ -34,8 +34,8 @@
   opacity: 0;
 }
 
-.tooltip:hover::before,
-.tooltip:hover::after {
+.tpl-tooltip:hover::before,
+.tpl-tooltip:hover::after {
   opacity: 1;
   transition: opacity 0.2 ease-out;
 }

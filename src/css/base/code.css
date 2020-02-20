@@ -1,10 +1,11 @@
-pre {
+.tpl-pre {
   display: block;
   margin-top: 1em;
   color: var(--black);
+  border: 1px solid var(--border-color-default);
 }
 
-code {
+.tpl-code {
   background: var(--lightest-grey);
   border-radius: var(--border-radius-default);
   padding: 0 var(--spacing-xxs);
@@ -18,8 +19,9 @@ code {
   border: 1px solid var(--border-color-default);
 }
 
-pre code {
+.tpl-pre .tpl-code {
   padding: 1em;
   display: block;
   width: 100%;
+  border: 0;
 }

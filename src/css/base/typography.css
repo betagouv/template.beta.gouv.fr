@@ -1,4 +1,4 @@
-body {
+.tpl-body {
   font-family: var(--font-family-default);
   font-size: var(--font-size-default);
   line-height: var(--line-height-default);
@@ -70,7 +70,7 @@ a:hover {
   background-color: var(--link-hover-background-color);
 }
 
-blockquote {
+.tpl-blockquote {
   margin: 0;
   padding: var(--spacing-xxs) var(--spacing-m);
   background-color: var(--blockquote-background-color);

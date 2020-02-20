@@ -1,22 +1,22 @@
-.table {
+.tpl-table {
   background-color: var(--white);
   width: 100%;
   border-collapse: collapse;
   box-shadow: var(--box-shadow-bottom);
 }
 
-.table th {
+.tpl-table th {
   color: var(--text-color-alternate);
   font-family: var(--font-family-title);
   text-align: left;
   padding: var(--spacing-xs) var(--spacing-s);
 }
 
-.table tr:hover {
+.tpl-table tr:hover {
   background-color: var(--table-hover-color);
 }
 
-.table td {
+.tpl-table td {
   border-top: 1px solid var(--table-border-color);
   padding: var(--spacing-xs) var(--spacing-s);
 }

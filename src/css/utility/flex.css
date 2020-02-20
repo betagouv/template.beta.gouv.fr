@@ -1,23 +1,23 @@
-.flex-row {
+.tpl-flex-row {
   display: flex;
   flex-direction: row;
 }
 
-@media (max-width: --smaller-than-tablet) {
-  .flex-row {
+@media (max-width: --smaller-than-phablet) {
+  .tpl-flex-row {
     flex-direction: column;
   }
 }
 
-.flex-column {
+.tpl-flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.flex-jc-sb {
+.tpl-flex-jc-sb {
   justify-content: space-between;
 }
 
-.flex-ai-center {
+.tpl-flex-ai-center {
   align-items: center;
 }

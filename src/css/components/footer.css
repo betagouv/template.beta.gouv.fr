@@ -1,35 +1,35 @@
-.footer {
+.tpl-footer {
   background-color: var(--darkest-grey);
   color: var(--white);
 }
 
-.footer .row {
+.tpl-footer .tpl-row {
   display: flex;
   justify-content: space-between;
 }
 
-.footer__links {
+.tpl-footer__links {
   padding: 0;
   list-style-type: none;
   max-width: 40%;
 }
 
-.footer__links a {
+.tpl-footer__links a {
   text-decoration: none;
 }
 
-.footer__links a:hover {
+.tpl-footer__links a:hover {
   background-color: var(--black);
 }
 
-.footer__links h2 {
+.tpl-footer__links h2 {
   font-size: 1.5em;
 }
 
-.footer__links h3 {
+.tpl-footer__links h3 {
   font-size: 1.25em;
 }
 
-.footer__links .icon {
+.tpl-footer__links .tpl-icon {
   margin-right: var(--spacing-xs);
 }

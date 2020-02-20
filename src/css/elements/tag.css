@@ -1,5 +1,5 @@
-.tag,
-a.tag {
+.tpl-tag,
+a.tpl-tag {
   display: inline-flex;
   align-items: center;
   font-size: 12px;
@@ -10,6 +10,6 @@ a.tag {
   text-decoration: none;
 }
 
-.tag svg + span {
+.tpl-tag svg + span {
   margin-left: var(--spacing-xxs);
 }

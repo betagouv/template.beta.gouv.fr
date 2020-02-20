@@ -1,23 +1,23 @@
-.section {
+.tpl-section {
   padding: var(--spacing-l) 0;
 }
 
-.section__title {
+.tpl-section__title {
   margin-top: 0;
 }
 
-.section__subtitle {
+.tpl-section__subtitle {
   letter-spacing: 0.08em;
   margin: 0;
   display: inline-block;
   background: var(--gradient-light);
 }
 
-.section__content {
+.tpl-section__content {
   flex-basis: 49%;
 }
 
-.section__image {
+.tpl-section__image {
   height: 100%;
   flex-basis: 49%;
 }

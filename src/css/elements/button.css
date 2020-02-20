@@ -1,4 +1,4 @@
-.button {
+.tpl-button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -13,53 +13,53 @@
   text-decoration: none;
 }
 
-.button.primary {
+.tpl-button.tpl-button--primary {
   background-color: var(--button-bg-primary);
   border-color: var(--button-bg-primary);
   color: var(--white);
 }
 
-.button.secondary {
+.tpl-button.tpl-button--secondary {
   background-color: var(--button-bg-secondary);
   border-color: var(--button-bg-secondary);
   color: var(--white);
 }
 
-.button.alternate {
+.tpl-button.tpl-button--alternate {
   background-color: transparent;
   border-color: var(--button-border-alternate);
   color: var(--button-text-color-alternate);
 }
 
-.button.gradient {
+.tpl-button.tpl-button--gradient {
   background: var(--gradient);
 }
 
-.button.primary:hover:not([disabled]) {
+.tpl-button.tpl-button--primary:hover:not([disabled]) {
   background-color: var(--button-bg-primary-hover);
 }
 
-.button.secondary:hover:not([disabled]) {
+.tpl-button.tpl-button--secondary:hover:not([disabled]) {
   background-color: var(--button-bg-secondary-hover);
 }
 
-.button.alternate:hover:not([disabled]) {
+.tpl-button.tpl-button--alternate:hover:not([disabled]) {
   border-color: var(--button-border-alternate-hover);
 }
 
-.button.gradient:hover:not([disabled]) {
+.tpl-button.tpl-button--gradient:hover:not([disabled]) {
   background: linear-gradient(to right, var(--primary-dark), var(--primary));
 }
 
-.button:disabled {
+.tpl-button:disabled {
   filter: var(--button-disabled-filter);
 }
 
-.button:active {
+.tpl-button:active {
   box-shadow: none;
 }
 
-.button .icon {
+.tpl-button .tpl-icon {
   stroke: var(--button-text-color);
   display: inline;
   fill: none;

@@ -6,10 +6,9 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 
-body {
+.tpl-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-main {
+.tpl-main {
   flex-grow: 1;
 }
 
@@ -26,11 +25,11 @@ a:visited {
   color: currentColor;
 }
 
-.svg-list {
+.tpl-svg-list {
   display: none;
 }
 
-svg.icon {
+svg.tpl-icon {
   height: 1em;
   width: 1em;
   fill: none;
@@ -38,14 +37,14 @@ svg.icon {
   display: inline;
 }
 
-.container {
+.tpl-container {
   width: 100%;
   max-width: var(--container-width);
   margin: auto;
   padding: var(--spacing-m);
 }
 
-.container-small {
+.tpl-container-small {
   width: 100%;
   max-width: var(--small-container-width);
   margin: auto;
