@@ -1,6 +1,6 @@
 {
   "name": "template.beta.gouv.fr",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A CSS UI kit for betagouv and friends",
   "devDependencies": {
     "copyfiles": "^2.2.0",
@@ -18,9 +18,9 @@
     "lint-fix": "stylelint --fix src/css/**/*.css",
     "lint": "stylelint src/css/**/*.css",
     "build-css": "npm run generate-custom-properties && postcss --output dist/template.css src/css/template.css && NODE_ENV=production postcss --output dist/template.min.css src/css/template.css",
-    "build-resources": "copyfiles src/img/* img/*/* src/fonts/**/* dist",
+    "build-resources": "copyfiles -f src/img/* dist/img && copyfiles -f src/img/icons/**/* dist/img/icons && copyfiles -f 'src/fonts/Source Sans Pro/*' 'dist/fonts/Source Sans Pro/' && copyfiles -f 'src/fonts/Evolventa/*' 'dist/fonts/Evolventa/'",
     "build": "rm -Rf dist && npm run build-resources && npm run build-css",
-    "publish": "npm run lint && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "author": "beta.gouv.fr",
   "license": "MIT",
