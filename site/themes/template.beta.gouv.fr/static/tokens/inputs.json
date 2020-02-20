@@ -1,0 +1,58 @@
+{
+  "imports": [
+    "./aliases.json"
+  ],
+  "global": {
+    "category": "inputs"
+  },
+  "props": {
+    "FORM_MAX_WIDTH": {
+      "value": "35em",
+      "type": "max-width"
+    },
+    "INPUT_DISABLED": {
+      "value": "{!LINK_WATER}",
+      "type": "color"
+    },
+    "CARD_TITLE_SIZE": {
+      "value": "1.5em",
+      "type": "font-size"
+    },
+    "CARD_TITLE_SIZE_SMALL": {
+      "value": "1.25em",
+      "type": "font-size"
+    },
+    "FEATURE_CARD_PADDING": {
+      "value": "{!SPACING_XS}",
+      "type": "padding"
+    },
+    "FEATURE_CARD_TITLE_COLOR": {
+      "value": "{!COBALT}",
+      "type": "color"
+    },
+    "FEATURE_CARD_BORDER_SIZE": {
+      "value": "2px",
+      "type": "border-width"
+    },
+    "BUTTON_TEXT_COLOR_ALTERNATE": {
+      "value": "{!ELEPHANT}",
+      "type": "color"
+    },
+    "BUTTON_BORDER_ALTERNATE": {
+      "value": "{!HEATHER}",
+      "type": "border-color"
+    },
+    "BUTTON_BORDER_ALTERNATE_HOVER": {
+      "value": "{!ELEPHANT}",
+      "type": "border-color"
+    },
+    "BUTTON_SHADOW": {
+      "value": "0 4px 4px {!BOX_SHADOW}",
+      "type": "box-shadow"
+    },
+    "BUTTON_DISABLED_FILTER": {
+      "value": "opacity(50%)",
+      "type": "filter"
+    }
+  }
+}

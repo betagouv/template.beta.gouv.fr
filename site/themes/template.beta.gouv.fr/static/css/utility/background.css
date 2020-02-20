@@ -1,0 +1,89 @@
+
+.bg--primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.bg--primary-dark {
+  background-color: var(--primary-dark);
+  color: var(--white);
+}
+
+.bg--secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.bg--secondary-dark {
+  background-color: var(--secondary-dark);
+  color: var(--white);
+}
+
+.bg--secondary-light {
+  background-color: var(--secondary-light);
+}
+
+.bg--white {
+  background-color: var(--white);
+}
+
+.bg--lightest-grey {
+  background-color: var(--lightest-grey);
+}
+
+.bg--lighter-grey {
+  background-color: var(--lighter-grey);
+}
+
+.bg--light-grey {
+  background-color: var(--light-grey);
+}
+
+.bg--grey {
+  background-color: var(--grey);
+}
+
+.bg--dark-grey {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
+.bg--darker-grey {
+  background-color: var(--darker-grey);
+  color: var(--white);
+}
+
+.bg--darkest-grey {
+  background-color: var(--darkest-grey);
+  color: var(--white);
+}
+
+.bg--black {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.bg--danger {
+  background-color: var(--danger);
+}
+
+.bg--success {
+  background-color: var(--success);
+}
+
+.bg--info {
+    background-color: var(--info);
+}
+
+.bg--warning {
+    background-color: var(--warning);
+}
+
+.bg--gradient {
+  background: var(--gradient);
+  color: var(--white);
+}
+
+.bg--gradient-light {
+  background: var(--gradient-light);
+}

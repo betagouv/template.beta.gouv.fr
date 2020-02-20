@@ -1,6 +1,4 @@
-public
-themes/template.beta.gouv.fr/static/node_modules
-themes/template.beta.gouv.fr/static/dist
+src/node_modules
 
 .DS_Store
 .AppleDouble

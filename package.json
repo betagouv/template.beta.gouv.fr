@@ -1,0 +1,47 @@
+{
+  "name": "template.beta.gouv.fr",
+  "version": "0.0.1",
+  "description": "A CSS UI kit for betagouv and friends",
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-reporter": "^6.0.1",
+    "stylelint": "^13.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "build": "theo tokens/app.json  --transform web --format custom-properties.css --dest css",
+    "dev": "postcss --output main.css --watch css/main.css",
+    "lint": "stylelint --fix css/**/*.css",
+    "test": "stylelint css/**/*.css",
+    "dist": "rm -rf dist && npm dist-site",
+    "dist-site": "copyfiles CNAME src/img/* src/img/*/* src/fonts/*/* dist",
+    "prepublish-css": "postcss --output dist/template.css src/css/template.css && NODE_ENV=production postcss --output dist/template.min.css src/css/template.css",
+    "prepublish": "rm -rf dist && npm prepublish-css && copyfiles img/* img/*/* fonts/**/* dist"
+  },
+  "author": "beta.gouv.fr",
+  "license": "MIT",
+  "style": "dist/template.min.css",
+  "main": "dist/template.css",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betagouv/template.beta.gouv.fr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/betagouv/template.beta.gouv.fr/issues"
+  },
+  "keywords": [
+    "template.beta.gouv.fr",
+    "beta.gouv.fr",
+    "ui kit"
+  ],
+  "dependencies": {
+    "postcss-custom-media": "^7.0.8"
+  }
+}

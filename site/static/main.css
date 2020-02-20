@@ -1,0 +1,141 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.elements dl {
+  display: flex;
+  align-items: flex-end;
+}
+
+.elements dt {
+  flex-basis: 10em;
+}
+
+.elements dd {
+  flex-grow: 1;
+}
+
+.colors .row + .row {
+  margin-top: var(--spacing-m);
+}
+
+.color {
+  font-size: 14px;
+  width: 10em;
+  margin: 0 var(--spacing-s) var(--spacing-xs) 0;
+}
+
+.color h3 {
+  margin-top: var(--spacing-xs);
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+.color__swatch {
+  height: var(--spacing-m);
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.color__swatch.bg--white {
+  border-color: var(--lighter-grey);
+}
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+  margin-bottom: 0;
+}
+
+.button.primary.hover {
+  background-color: var(--button-bg-primary-hover);
+}
+
+.button.secondary.hover {
+  background-color: var(--button-bg-secondary-hover);
+}
+
+.button.alternate.hover {
+  border-color: var(--button-border-alternate-hover);
+}
+
+.button.gradient.hover {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary));
+}
+
+.buttons dd,
+.icon-buttons dd {
+  display: flex;
+}
+
+.button + .button {
+  margin-left: var(--spacing-m);
+}
+
+.icons .icon {
+  height: 2em;
+  width: 2em;
+}
+
+.icons dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  grid-template-rows: 1fr min-content;
+  grid-gap: var(--spacing-m);
+  margin-top: var(--spacing-xl);
+}
+
+.icons__group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: var(--spacing-m);
+}
+
+.icons__group dt {
+  flex-basis: auto;
+  order: 2;
+}
+
+.icons__group dd {
+  order: 1;
+}
+
+input.focus {
+  border-color: var(--primary);
+}
+
+.forms .fieldsets {
+  justify-content: space-between;
+}
+
+.notification + .notification {
+  margin-top: var(--spacing-xs);
+}
+
+svg.reliability {
+  fill: var(--success);
+}
+
+.cards .card {
+  flex-basis: 20em;
+  flex-shrink: 0;
+}
+
+pre {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  max-height: 25em;
+  overflow-y: scroll;
+}
+
+.cards pre {
+  margin: var(--spacing-xs);
+}

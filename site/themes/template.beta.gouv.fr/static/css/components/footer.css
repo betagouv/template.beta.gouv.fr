@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--darkest-grey);
+  color: var(--white);
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  padding: 0;
+  list-style-type: none;
+  max-width: 40%;
+}
+
+.footer__links a {
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  background-color: var(--black);
+}
+
+.footer__links h2 {
+  font-size: 1.5em;
+}
+
+.footer__links h3 {
+  font-size: 1.25em;
+}
+
+.footer__links .icon {
+  margin-right: var(--spacing-xs);
+}

@@ -1,0 +1,45 @@
+{
+  "imports": [
+    "./aliases.json",
+    "./colors.json",
+    "./spacings.json",
+    "./typography.json",
+    "./inputs.json",
+    "./buttons.json",
+    "./cards.json",
+    "./tables.json",
+    "./tags.json"
+  ],
+  "props": {
+    "CONTAINER_WIDTH": {
+      "value": "1200px",
+      "type": "size",
+      "category": "sizing"
+    },
+    "SMALL_CONTAINER_WIDTH": {
+      "value": "600px",
+      "type": "size",
+      "category": "sizing"
+    },
+    "BORDER_RADIUS_DEFAULT": {
+      "value": "{!BORDER_RADIUS}",
+      "type": "border-radius",
+      "category": "border-radius"
+    },
+    "BORDER_COLOR_DEFAULT": {
+      "value": "{!LINK_WATER}",
+      "type": "color",
+      "category": "border"
+    },
+    "BOX_SHADOW_DEFAULT": {
+      "value": "0 0 10px {!BOX_SHADOW}",
+      "type": "box-shadow",
+      "category": "box-shadow"
+    },
+    "BOX_SHADOW_BOTTOM": {
+      "value": "0 4px 4px {!BOX_SHADOW}",
+      "type": "box-shadow",
+      "category": "box-shadow"
+    }
+  }
+}

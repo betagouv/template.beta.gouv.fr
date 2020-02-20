@@ -1,0 +1,11 @@
+dt {
+  color: var(--text-color-alternate);
+}
+
+dd {
+  margin: 0;
+}
+
+dd + dt {
+  margin-top: var(--spacing-m);
+}
