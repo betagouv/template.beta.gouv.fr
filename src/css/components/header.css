@@ -1,8 +1,8 @@
 .tpl-main-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: var(--spacing-s);
+  align-items: stretch;
+  min-height: 3.5em;
   border-bottom: 1px solid var(--border-color-default);
   flex-wrap: wrap;
   position: relative;
@@ -19,6 +19,7 @@
   flex-wrap: wrap;
   line-height: 1.5em;
   z-index: 10;
+  margin: var(--spacing-s);
 }
 
 .tpl-main-header__logo {
@@ -53,12 +54,17 @@ input.tpl-site-nav__toggle:checked {
   flex-shrink: 0;
   line-height: 1.5em;
 }
+
 .tpl-site-nav__toggle-label .tpl-icon {
   margin-right: var(--spacing-xs);
   flex-shrink: 0;
 }
+
 .tpl-site-nav__links {
-  margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0 var(--spacing-s);
+  padding: 0;
   color: var(--darker-grey);
 }
 
@@ -128,12 +134,12 @@ input.tpl-site-nav__toggle:checked {
   .tpl-site-nav__item:hover {
     background-color: var(--primary);
     color: var(--white);
+    border-bottom: 0.25em solid var(--primary);
   }
 
   .tpl-site-nav__item:hover a {
     background-color: inherit;
   }
-
 }
 
 @media (--smaller-than-phablet) {

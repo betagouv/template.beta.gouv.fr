@@ -1,5 +1,6 @@
 .tpl-documentation .tpl-container {
   display: flex;
+  align-items: stretch;
 }
 
 .tpl-documentation__sidebar {
@@ -8,34 +9,47 @@
 }
 
 .tpl-documentation__links {
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: var(--white);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow-bottom);
-  padding: var(--spacing-m);
 }
 
+.tpl-documentation__link {
+  padding: var(--spacing-xs) var(--spacing-m);
+  border: 1px solid transparent;
+}
 
 .tpl-documentation__link--active {
+  color: var(--primary);
   font-weight: 700;
   position: relative;
+  border-color: var(--primary);
 }
 
 .tpl-documentation__link--active::before {
-  content: "●";
-  color: var(--primary);
+  content: "";
+  background-color: var(--primary);
   position: absolute;
-  left: -1em;
-  font-weight: 700;
-}
-
-.tpl-documentation__sidebar + .tpl-documentation__content {
-  margin-left: var(--spacing-l);
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0.5em;
 }
 
 .tpl-documentation__content dt {
   font-family: var(--font-family-title);
   font-weight: 700;
   color: var(--text-color-default);
+}
+
+.tpl-documentation__sidebar + .tpl-documentation__content,
+.tpl-documentation__content + .tpl-documentation__sidebar {
+  margin-left: var(--spacing-l);
+}
+
+.tpl-documentation .tpl-button {
+  margin: var(--spacing-m);
 }

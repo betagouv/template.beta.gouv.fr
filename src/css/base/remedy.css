@@ -2,7 +2,9 @@
 ******************/
 
 /* Use border-box by default, globally */
-*, ::before, ::after { box-sizing: border-box; }
+*,
+::before,
+::after { box-sizing: border-box; }
 
 /*
 * Consistent line spacing...
@@ -13,12 +15,13 @@ html { line-sizing: normal; }
 /* Remove the tiny space around the edge of the page */
 body { margin: 0; }
 
-
 /* Headings
 ***********/
 
 /* Switch to rem units for headings */
+
 /* @@@ Initial values are based on existing browser defaults */
+
 /* Keep h1 margins consistent, even when nested */
 h1 {
   font-size: 2rem;
@@ -26,10 +29,9 @@ h1 {
 }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.17rem; }
-h4 { font-size: 1.00rem; }
+h4 { font-size: 1rem; }
 h5 { font-size: 0.83rem; }
 h6 { font-size: 0.67rem; }
-
 
 /* Typography
 *************/
@@ -50,7 +52,6 @@ hr {
   overflow: visible;
 }
 
-
 /* Embedded Elements
 ********************/
 
@@ -59,7 +60,14 @@ hr {
 * 2. Remove strange space-below when inline
 * 3. Responsive by default
 */
-img, svg, video, canvas, audio, iframe, embed, object {
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
   display: block;
   vertical-align: middle;
   max-width: 100%;
@@ -69,7 +77,10 @@ img, svg, video, canvas, audio, iframe, embed, object {
 * Maintain intrinsic aspect ratios when `max-width` is applied
 * (iframe, embed, and object have no intrinsic ratio, set height explicitly)
 */
-img, svg, video, canvas {
+img,
+svg,
+video,
+canvas {
   height: auto;
 }
 
@@ -78,7 +89,6 @@ img, svg, video, canvas {
 * and audio files are unlikely to come with a width attribute
 */
 audio { width: 100%; }
-
 
 /* Old Browsers
 ***************/
@@ -90,7 +100,16 @@ img { border-style: none; }
 svg { overflow: hidden; }
 
 /* Default block display on HTML5 elements */
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 

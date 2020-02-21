@@ -11,6 +11,10 @@
   flex-grow: 1;
 }
 
+.colors .tpl-flex-row {
+  flex-wrap: wrap;
+}
+
 .colors .tpl-flex-row + .tpl-flex-row {
   margin-top: var(--spacing-m);
 }

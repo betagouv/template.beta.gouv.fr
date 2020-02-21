@@ -12,673 +12,341 @@ heroclass: "tpl-bg--gradient"
   <section class="tpl-section header">
     <div class="tpl-container">
       <h2>Header</h2>
-      <header class="tpl-main-header tpl-panel">
-        <a class="tpl-main-header__link" href="/">
-          <img class="tpl-main-header__logo" src="/img/logo-marianne.svg" alt="" />
-          template.beta.gouv.fr
-        </a>
-        <nav class="tpl-site-nav">
-          <input type="checkbox" class="tpl-site-nav__toggle" id="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1" />
-          <label class="tpl-site-nav__toggle-label" for="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1">
-            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
-            menu</label>
-          <ul class="tpl-site-nav__links">
-            <li class="tpl-site-nav__item">
-              <a href="/elements">Éléments</a>
-            </li>
-            <li class="tpl-site-nav__item">
-              <a href="/components">Composants</a>
-            </li>
-            <li class="tpl-site-nav__item">
-              <a href="/layouts">Layouts</a>
-            </li>
-            <li class="tpl-site-nav__item">
-              <a href="/icons">Icônes</a>
-            </li>
-            <li class="tpl-site-nav__item">
-              <a href="/a-propos">À propos</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <pre class="tpl-pre"><code class="tpl-code">&lt;header class="tpl-main-header" role="banner">
-  &lt;a class="tpl-main-header__link" href="../">
-    &lt;img class="tpl-main-header__logo" src="../img/logo-marianne.svg" alt="">
+      {{< sample >}}<header class="tpl-main-header tpl-panel">
+  <a class="tpl-main-header__link" href="/">
+    <img class="tpl-main-header__logo" src="/img/logo-marianne.svg" alt="" />
     template.beta.gouv.fr
-  &lt;/a>
-  &lt;nav class="tpl-site-nav" role="navigation">
-    &lt;input type="checkbox" class="tpl-site-nav__toggle" id="tpl-site-nav__toggle" aria-hidden="true" tabindex="-1">
-    &lt;label class="tpl-site-nav__toggle-label" for="tpl-site-nav__toggle" aria-hidden="true" tabindex="-1">
-      &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#menu-dots">&lt;/use>&lt;/svg>
-      menu
-    &lt;/label>
-    &lt;ul class="tpl-site-nav__links">
-
-      &lt;li class="tpl-site-nav__item">
-        &lt;a href="../elements/" title="Élements">Élements&lt;/a>
-      &lt;/li>
-
-      &lt;li class="tpl-site-nav__item">
-        &lt;a href="../components/" title="Composants">Composants&lt;/a>
-      &lt;/li>
-
-      &lt;li class="tpl-site-nav__item">
-        &lt;a href="../layouts/" title="Layouts">Layouts&lt;/a>
-      &lt;/li>
-
-      &lt;li class="tpl-site-nav__item">
-        &lt;a href="../icons/" title="Icônes">Icônes&lt;/a>
-      &lt;/li>
-
-      &lt;li class="tpl-site-nav__item">
-        &lt;a href="../a-propos/" title="À propos">À propos&lt;/a>
-      &lt;/li>
-
-    &lt;/ul>
-  &lt;/nav>
-&lt;/header></code></pre>
+  </a>
+  <nav class="tpl-site-nav">
+    <input type="checkbox" class="tpl-site-nav__toggle" id="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1" />
+    <label class="tpl-site-nav__toggle-label" for="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1">
+      <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
+      menu</label>
+    <ul class="tpl-site-nav__links">
+      <li class="tpl-site-nav__item">
+        <a href="/elements">Éléments</a>
+      </li>
+      <li class="tpl-site-nav__item">
+        <a href="/components">Composants</a>
+      </li>
+      <li class="tpl-site-nav__item">
+        <a href="/layouts">Layouts</a>
+      </li>
+      <li class="tpl-site-nav__item">
+        <a href="/icons">Icônes</a>
+      </li>
+      <li class="tpl-site-nav__item">
+        <a href="/a-propos">À propos</a>
+      </li>
+    </ul>
+  </nav>
+</header>{{< /sample >}}
     </div>
   </section>
   <section class="tpl-section footer-example">
     <div class="tpl-container">
       <h2>Footer</h2>
-      <footer class="tpl-footer" role="contentinfo">
-        <div class="tpl-container">
-          <div class="tpl-flex-row tpl-flex-jc-sb">
-            <ul class="tpl-footer__links">
-              <li>
-                <h2>Un service de la DINUM réalisé par beta.gouv.fr</h2>
-              </li>
-              <li>
-                <a href="../">Informatique et libertés</a>
-              </li>
-              <li>
-                <a href="../">Mentions légales</a>
-              </li>
-            </ul>
-            <ul class="tpl-footer__links">
-              <li>
-                <h3>Rester en contact</h3>
-              </li>
-              <li>
-                <a href="https://twitter.com/betagouv">
-                  <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#twitter"></use></svg>
-                  @betagouv
-                </a>
-              </li>
-              <li>
-                <a href="../">
-                  <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#mail"></use></svg>
-                  Lettre d’information
-                </a>
-              </li>
-            </ul>
-            <ul class="tpl-footer__links">
-              <li>
-                <h3>Contribuer</h3>
-              </li>
-              <li>
-                <a href="../">
-                  <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#github"></use></svg>
-                  Améliorer ce site
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-      <pre class="tpl-pre"><code class="tpl-code">&lt;footer class="tpl-footer" role="contentinfo">
-  &lt;div class="tpl-container">
-    &lt;div class="tpl-flex-row flex-jc-sb">
-      &lt;ul class="tpl-footer__links">
-        &lt;li>
-          &lt;h2>Un service de la DINUM réalisé par beta.gouv.fr&lt;/h2>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="../">Informatique et libertés&lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="../">Mentions légales&lt;/a>
-        &lt;/li>
-      &lt;/ul>
-      &lt;ul class="tpl-footer__links">
-        &lt;li>
-          &lt;h3>Rester en contact&lt;/h3>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="https://twitter.com/betagouv">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#twitter">&lt;/use>&lt;/svg>
+      {{< sample >}}<footer class="tpl-footer" role="contentinfo">
+  <div class="tpl-container">
+    <div class="tpl-flex-row tpl-flex-jc-sb">
+      <ul class="tpl-footer__links">
+        <li>
+          <h2>Un service de la DINUM réalisé par beta.gouv.fr</h2>
+        </li>
+        <li>
+          <a href="../">Informatique et libertés</a>
+        </li>
+        <li>
+          <a href="../">Mentions légales</a>
+        </li>
+      </ul>
+      <ul class="tpl-footer__links">
+        <li>
+          <h3>Rester en contact</h3>
+        </li>
+        <li>
+          <a href="https://twitter.com/betagouv">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#twitter"></use></svg>
             @betagouv
-          &lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="../">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#mail">&lt;/use>&lt;/svg>
+          </a>
+        </li>
+        <li>
+          <a href="../">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#mail"></use></svg>
             Lettre d’information
-          &lt;/a>
-        &lt;/li>
-      &lt;/ul>
-      &lt;ul class="tpl-footer__links">
-        &lt;li>
-          &lt;h3>Contribuer&lt;/h3>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="../">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#github">&lt;/use>&lt;/svg>
+          </a>
+        </li>
+      </ul>
+      <ul class="tpl-footer__links">
+        <li>
+          <h3>Contribuer</h3>
+        </li>
+        <li>
+          <a href="../">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#github"></use></svg>
             Améliorer ce site
-          &lt;/a>
-        &lt;/li>
-      &lt;/ul>
-    &lt;/div>
-  &lt;/div>
-&lt;/footer></code></pre>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>{{< /sample >}}
     </div>
   </section>
   <section class="tpl-section heroes">
     <div class="tpl-container">
       <h2>Hero</h2>
-    </div>
-    <section class="tpl-hero tpl-panel">
-      <div class="tpl-container-small">
-        <h1 class="tpl-hero__title">api.gouv.fr</h1>
-        <p class="tpl-hero__subtitle">Le site qui simplifie le partage et  la circulation des données administratives</p>
-        <form class="tpl-hero__form">
-          <label for="tpl-hero__search">Rechercher des APIs</label>
-          <input id="tpl-hero__search" type="text" class="tpl-hero__search" />
-          <input type="submit" class="tpl-hero__search-button" value="" role="button" aria-label="Rechercher" />
-        </form>
-      </div>
-    </section>
-    <div class="tpl-container">
-      <pre class="tpl-pre"><code class="tpl-code">&lt;section class="tpl-hero tpl-panel">
-  &lt;div class="tpl-container-small">
-    &lt;h1 class="tpl-hero__title">api.gouv.fr&lt;/h1>
-    &lt;p class="tpl-hero__subtitle">Le site qui simplifie le partage et  la circulation des données administratives&lt;/p>
-    &lt;form class="tpl-hero__form">
-      &lt;label for="tpl-hero__search">Rechercher des APIs&lt;/label>
-      &lt;input id="tpl-hero__search" type="text" class="tpl-hero__search">
-      &lt;input type="submit" class="tpl-hero__search-button" value="" role="button" aria-label="Rechercher">
-    &lt;/form>
-  &lt;/div>
-&lt;/section></code></pre>
-    </div>
-    <section class="tpl-hero tpl-panel tpl-bg--gradient">
-      <div class="tpl-container">
-        <h1 class="tpl-hero__title-with-avatar">
-          <img src="/img/sirh.png" alt="" />
-          API Ingres
-        </h1>
-        <p class="tpl-hero__subtitle">Récupérez l'ensemble des référentiels utilisés par les SIRH  de la Fonction Publique d'Etat </p>
-      </div>
-    </section>
-    <div class="tpl-container">
-      <pre class="tpl-pre"><code class="tpl-code">&lt;section class="tpl-hero panel tpl-bg--gradient">
-  &lt;div class="tpl-container">
-    &lt;h1 class="tpl-hero__title-with-avatar">
-      &lt;img src="../img/sirh.png" alt="">
+      {{< sample >}}<section class="tpl-hero tpl-panel">
+  <div class="tpl-container-small">
+    <h1 class="tpl-hero__title">api.gouv.fr</h1>
+    <p class="tpl-hero__subtitle">Le site qui simplifie le partage et  la circulation des données administratives</p>
+    <form class="tpl-hero__form">
+      <label for="tpl-hero__search">Rechercher des APIs</label>
+      <input id="tpl-hero__search" type="text" class="tpl-hero__search" />
+      <input type="submit" class="tpl-hero__search-button" value="" role="button" aria-label="Rechercher" />
+    </form>
+  </div>
+</section>{{< /sample >}}
+    {{< sample >}}<section class="tpl-hero tpl-panel tpl-bg--gradient">
+  <div class="tpl-container">
+    <h1 class="tpl-hero__title-with-avatar">
+      <img src="/img/sirh.png" alt="" />
       API Ingres
-    &lt;/h1>
-    &lt;p class="tpl-hero__subtitle">Récupérez l'ensemble des référentiels utilisés par les SIRH  de la Fonction Publique d'Etat &lt;/p>
-  &lt;/div>
-&lt;/section></code></pre>
+    </h1>
+    <p class="tpl-hero__subtitle">Récupérez l'ensemble des référentiels utilisés par les SIRH  de la Fonction Publique d'Etat </p>
+  </div>
+</section>{{< /sample >}}
     </div>
   </section>
   <section class="tpl-section">
     <div class="tpl-container">
       <h2>Sections</h2>
+      {{< sample >}}<section class="tpl-section tpl-panel">
+  <div class="tpl-container">
+    <div class="tpl-flex-row tpl-flex-jc-sb">
+      <div class="tpl-section__content">
+        <p class="tpl-section__subtitle">Les réutilisations du mois</p>
+        <h3 class="tpl-section__title">Le Portail Famille de Qiis</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="tpl-button tpl-button--primary" href="#">Découvrir le projet</a>
+      </div>
+      <img class="tpl-section__image" src="/img/portail.jpg" alt="" />
     </div>
-    <section class="tpl-section tpl-panel">
-      <div class="tpl-container">
-        <div class="tpl-flex-row flex-jc-sb">
-          <div class="tpl-section__content">
-            <p class="tpl-section__subtitle">Les réutilisations du mois</p>
-            <h3 class="tpl-section__title">Le Portail Famille de Qiis</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="tpl-button primary" href="#">Découvrir le projet</a>
-          </div>
-          <img class="tpl-section__image" src="/img/portail.jpg" alt="" />
+  </div>
+</section>{{< /sample >}}
+    {{< sample >}}<section class="tpl-section tpl-bg--gradient-light tpl-panel">
+  <div class="tpl-container">
+    <h3 class="tpl-section__title">Les APIs à découvrir</h3>
+    <div class="tpl-flex-row flex-jc-sb">
+      <div class="tpl-card shadow">
+        <div class="tpl-card__header">
+          <img class="tpl-card__image" alt="" src="img/sirh.png" />
+          <h3 class="tpl-card__title">Nom de l’API</h3>
+        </div>
+        <div class="tpl-card__content">
+          <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
+        </div>
+        <div class="tpl-card__extra">
+          <dl class="tpl-description-list">
+            <div class="tpl-description__group">
+              <dt>Thème :</dt>
+              <dd>Emploi ; Entreprise</dd>
+            </div>
+            <div class="tpl-description__group">
+              <dt>Données :</dt>
+              <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
+            </div>
+            <div class="tpl-description__group">
+              <dt>Produit par :</dt>
+              <dd>Pôle Emploi</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="tpl-card__footer">
+          <a class="tpl-tag">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
+            <span>Accès libre</span>
+          </a>
+          <a class="tpl-tag">
+            <svg class="tpl-icon reliability">
+              <circle cx="5" cy="5" r="5" fill="#17BD3D" />
+            </svg>
+            <span>98% de disponibilité / 12 mois</span>
+          </a>
         </div>
       </div>
-    </section>
-    <div class="tpl-container">
-      <pre class="tpl-pre"><code class="tpl-code">&lt;section class="tpl-section tpl-panel">
-  &lt;div class="tpl-container">
-    &lt;div class="tpl-flex-row flex-jc-sb">
-      &lt;div class="tpl-section__content">
-        &lt;p class="tpl-section__subtitle">Les réutilisations du mois&lt;/p>
-        &lt;h3 class="tpl-section__title">Le Portail Famille de Qiis&lt;/h3>
-        &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-        &lt;a class="tpl-button primary" href="#">Découvrir le projet&lt;/a>
-      &lt;/div>
-      &lt;img class="tpl-section__image" src="../img/portail.jpg" alt="">
-    &lt;/div>
-  &lt;/div>
-&lt;/section></code></pre>
-    </div>
-    <section class="tpl-section tpl-bg--gradient-light tpl-panel">
-      <div class="tpl-container">
-        <h3 class="tpl-section__title">Les APIs à découvrir</h3>
-        <div class="tpl-flex-row flex-jc-sb">
-          <div class="tpl-card shadow">
-            <div class="tpl-card__header">
-              <img class="tpl-card__image" alt="" src="img/sirh.png" />
-              <h3 class="tpl-card__title">Nom de l’API</h3>
+      <div class="tpl-card shadow">
+        <div class="tpl-card__header">
+          <img class="tpl-card__image" alt="" src="img/sirh.png" />
+          <h3 class="tpl-card__title">Nom de l’API</h3>
+        </div>
+        <div class="tpl-card__content">
+          <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
+        </div>
+        <div class="tpl-card__extra">
+          <dl class="tpl-description-list">
+            <div class="tpl-description__group">
+              <dt>Thème :</dt>
+              <dd>Emploi ; Entreprise</dd>
             </div>
-            <div class="tpl-card__content">
-              <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
+            <div class="tpl-description__group">
+              <dt>Données :</dt>
+              <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
             </div>
-            <div class="tpl-card__extra">
-              <dl class="tpl-description-list">
-                <div class="tpl-description__group">
-                  <dt>Thème :</dt>
-                  <dd>Emploi ; Entreprise</dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Données :</dt>
-                  <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Produit par :</dt>
-                  <dd>Pôle Emploi</dd>
-                </div>
-              </dl>
+            <div class="tpl-description__group">
+              <dt>Produit par :</dt>
+              <dd>Pôle Emploi</dd>
             </div>
-            <div class="tpl-card__footer">
-              <a class="tpl-tag">
-                <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
-                <span>Accès libre</span>
-              </a>
-              <a class="tpl-tag">
-                <svg class="tpl-icon reliability">
-                  <circle cx="5" cy="5" r="5" fill="#17BD3D" />
-                </svg>
-                <span>98% de disponibilité / 12 mois</span>
-              </a>
-            </div>
-          </div>
-          <div class="tpl-card shadow">
-            <div class="tpl-card__header">
-              <img class="tpl-card__image" alt="" src="img/sirh.png" />
-              <h3 class="tpl-card__title">Nom de l’API</h3>
-            </div>
-            <div class="tpl-card__content">
-              <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
-            </div>
-            <div class="tpl-card__extra">
-              <dl class="tpl-description-list">
-                <div class="tpl-description__group">
-                  <dt>Thème :</dt>
-                  <dd>Emploi ; Entreprise</dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Données :</dt>
-                  <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Produit par :</dt>
-                  <dd>Pôle Emploi</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="tpl-card__footer">
-              <a class="tpl-tag">
-                <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
-                <span>Accès libre</span>
-              </a>
-              <a class="tpl-tag">
-                <svg class="tpl-icon reliability">
-                  <circle cx="5" cy="5" r="5" fill="#17BD3D" />
-                </svg>
-                <span>98% de disponibilité / 12 mois</span>
-              </a>
-            </div>
-          </div>
-          <div class="tpl-card shadow">
-            <div class="tpl-card__header">
-              <img class="tpl-card__image" alt="" src="img/sirh.png" />
-              <h3 class="tpl-card__title">Nom de l’API</h3>
-            </div>
-            <div class="tpl-card__content">
-              <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
-            </div>
-            <div class="tpl-card__extra">
-              <dl class="tpl-description-list">
-                <div class="tpl-description__group">
-                  <dt>Thème :</dt>
-                  <dd>Emploi ; Entreprise</dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Données :</dt>
-                  <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
-                </div>
-                <div class="tpl-description__group">
-                  <dt>Produit par :</dt>
-                  <dd>Pôle Emploi</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="tpl-card__footer">
-              <a class="tpl-tag">
-                <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
-                <span>Accès libre</span>
-              </a>
-              <a class="tpl-tag">
-                <svg class="tpl-icon reliability">
-                  <circle cx="5" cy="5" r="5" fill="#17BD3D" />
-                </svg>
-                <span>98% de disponibilité / 12 mois</span>
-              </a>
-            </div>
-          </div>
+          </dl>
+        </div>
+        <div class="tpl-card__footer">
+          <a class="tpl-tag">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
+            <span>Accès libre</span>
+          </a>
+          <a class="tpl-tag">
+            <svg class="tpl-icon reliability">
+              <circle cx="5" cy="5" r="5" fill="#17BD3D" />
+            </svg>
+            <span>98% de disponibilité / 12 mois</span>
+          </a>
         </div>
       </div>
-    </section>
-    <div class="tpl-container">
-      <pre class="tpl-pre"><code class="tpl-code">&lt;section class="tpl-section tpl-bg--gradient-light tpl-panel">
-  &lt;div class="tpl-container">
-    &lt;h3 class="tpl-section__title">Les APIs à découvrir&lt;/h3>
-    &lt;div class="tpl-flex-row flex-jc-sb">
-      &lt;div class="tpl-card shadow">
-        &lt;div class="tpl-card__header">
-          &lt;img class="tpl-card__image" alt="" src="img/sirh.png">
-          &lt;h3 class="tpl-card__title">Nom de l’API&lt;/h3>
-        &lt;/div>
-        &lt;div class="tpl-card__content">
-          &lt;p>Récupérer la liste des entreprises classées par potentiel d’embauche&lt;/p>
-        &lt;/div>
-        &lt;div class="tpl-card__extra">
-          &lt;dl>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Thème&nbsp;:&lt;/dt>
-              &lt;dd>Emploi&nbsp;; Entreprise&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Données&nbsp;:&lt;/dt>
-              &lt;dd>Nomenclature miliaire&nbsp;; Nomen &lt;a href="#">(voir plus)&lt;/a>&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Produit par&nbsp;:&lt;/dt>
-              &lt;dd>Pôle Emploi&lt;/dd>
-            &lt;/div>
-          &lt;/dl>
-        &lt;/div>
-        &lt;div class="tpl-card__footer">
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">
-            &lt;/use>&lt;/svg>&lt;span>Accès libre&lt;/span>
-          &lt;/a>
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon reliability">
-              &lt;circle cx="5" cy="5" r="5" fill="#17BD3D">&lt;/circle>
-            &lt;/svg>
-            &lt;span>98% de disponibilité / 12 mois&lt;/span>
-          &lt;/a>
-        &lt;/div>
-      &lt;/div>
-      &lt;div class="tpl-card shadow">
-        &lt;div class="tpl-card__header">
-          &lt;img class="tpl-card__image" alt="" src="img/sirh.png">
-          &lt;h3 class="tpl-card__title">Nom de l’API&lt;/h3>
-        &lt;/div>
-        &lt;div class="tpl-card__content">
-          &lt;p>Récupérer la liste des entreprises classées par potentiel d’embauche&lt;/p>
-        &lt;/div>
-        &lt;div class="tpl-card__extra">
-          &lt;dl>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Thème&nbsp;:&lt;/dt>
-              &lt;dd>Emploi&nbsp;; Entreprise&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Données&nbsp;:&lt;/dt>
-              &lt;dd>Nomenclature miliaire&nbsp;; Nomen &lt;a href="#">(voir plus)&lt;/a>&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Produit par&nbsp;:&lt;/dt>
-              &lt;dd>Pôle Emploi&lt;/dd>
-            &lt;/div>
-          &lt;/dl>
-        &lt;/div>
-        &lt;div class="tpl-card__footer">
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">
-            &lt;/use>&lt;/svg>&lt;span>Accès libre&lt;/span>
-          &lt;/a>
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon reliability">
-              &lt;circle cx="5" cy="5" r="5" fill="#17BD3D">&lt;/circle>
-            &lt;/svg>
-            &lt;span>98% de disponibilité / 12 mois&lt;/span>
-          &lt;/a>
-        &lt;/div>
-      &lt;/div>
-      &lt;div class="tpl-card shadow">
-        &lt;div class="tpl-card__header">
-          &lt;img class="tpl-card__image" alt="" src="img/sirh.png">
-          &lt;h3 class="tpl-card__title">Nom de l’API&lt;/h3>
-        &lt;/div>
-        &lt;div class="tpl-card__content">
-          &lt;p>Récupérer la liste des entreprises classées par potentiel d’embauche&lt;/p>
-        &lt;/div>
-        &lt;div class="tpl-card__extra">
-          &lt;dl>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Thème&nbsp;:&lt;/dt>
-              &lt;dd>Emploi&nbsp;; Entreprise&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Données&nbsp;:&lt;/dt>
-              &lt;dd>Nomenclature miliaire&nbsp;; Nomen &lt;a href="#">(voir plus)&lt;/a>&lt;/dd>
-            &lt;/div>
-            &lt;div class="tpl-description__group">
-              &lt;dt>Produit par&nbsp;:&lt;/dt>
-              &lt;dd>Pôle Emploi&lt;/dd>
-            &lt;/div>
-          &lt;/dl>
-        &lt;/div>
-        &lt;div class="tpl-card__footer">
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#unlock">
-            &lt;/use>&lt;/svg>&lt;span>Accès libre&lt;/span>
-          &lt;/a>
-          &lt;a class="tpl-tag">
-            &lt;svg class="tpl-icon reliability">
-              &lt;circle cx="5" cy="5" r="5" fill="#17BD3D">&lt;/circle>
-            &lt;/svg>
-            &lt;span>98% de disponibilité / 12 mois&lt;/span>
-          &lt;/a>
-        &lt;/div>
-      &lt;/div>
-    &lt;/div>
-  &lt;/div>
-&lt;/section></code></pre>
+      <div class="tpl-card shadow">
+        <div class="tpl-card__header">
+          <img class="tpl-card__image" alt="" src="img/sirh.png" />
+          <h3 class="tpl-card__title">Nom de l’API</h3>
+        </div>
+        <div class="tpl-card__content">
+          <p>Récupérer la liste des entreprises classées par potentiel d’embauche</p>
+        </div>
+        <div class="tpl-card__extra">
+          <dl class="tpl-description-list">
+            <div class="tpl-description__group">
+              <dt>Thème :</dt>
+              <dd>Emploi ; Entreprise</dd>
+            </div>
+            <div class="tpl-description__group">
+              <dt>Données :</dt>
+              <dd>Nomenclature miliaire ; Nomen <a href="#">(voir plus)</a></dd>
+            </div>
+            <div class="tpl-description__group">
+              <dt>Produit par :</dt>
+              <dd>Pôle Emploi</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="tpl-card__footer">
+          <a class="tpl-tag">
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#unlock">
+            <span>Accès libre</span>
+          </a>
+          <a class="tpl-tag">
+            <svg class="tpl-icon reliability">
+              <circle cx="5" cy="5" r="5" fill="#17BD3D" />
+            </svg>
+            <span>98% de disponibilité / 12 mois</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>{{< /sample >}}
     </div>
   </section>
   <section class="tpl-section documentations">
     <div class="tpl-container">
       <h2>Documentation</h2>
+      {{< sample >}}<section class="tpl-documentation tpl-panel tpl-bg--lightest-grey">
+  <div class="tpl-container">
+    <aside class="tpl-documentation__sidebar">
+      <nav class="tpl-documentation__links">
+        <a class="tpl-documentation__link tpl-documentation__link--active">Description</a>
+        <a class="tpl-documentation__link">Liste des données</a>
+        <a class="tpl-documentation__link">Documentaion technique</a>
+        <a class="tpl-documentation__link">Réutilisations</a>
+        <a class="tpl-documentation__link">Contact de l’API</a>
+        <a class="tpl-documentation__link">Licence</a>
+        <button class="tpl-button tpl-button--gradient">Tester l’API <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#arrow-up-right"></use></svg></button>
+      </nav>
+    </aside>
+    <div class="tpl-documentation__content">
+      <dl class="tpl-description-list">
+        <dt>Description</dt>
+        <dd>L’API Nomenclature permet d’accéder à toutes les nomenclatures noyau gérées dans l’application Ingres du CISIRH, soit plus de 350 nomenclatures accessibles.</dd>
+        <dt>Licence</dt>
+        <dd>Le CISIRH met à disposition cette API exploitable accessible uniquement par les ministères ou institutions ayant accès au Réseau Interministériel de l’Etat (RIE). Son utilisation par une application tierce ne saurait engager la responsabilité du CISIRH, par exemple, en termes de disponibilité.</dd>
+        <dt>Limite d’usage</dt>
+        <dd>Pour le moment, en dehors de certaines nomenclatures RCC ou externes pour lesquelles nous avons eu des demandes particulières (corps, grades, hexaposte…) seuls le code, les libellés court et long et la période de validité sont restitués par l’API pour 99% des nomenclatures.</dd>
+        <dt>Liste des données</dt>
+        <dd>
+          <table class="tpl-table">
+            <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Catégories</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Corps</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Grade</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Emplois</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Fonctionnels</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Groupe dans un emploi fonctionnel</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Grilles</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Échelons</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Indices</td>
+                <td>Nomenclature RCC</td>
+              </tr>
+              <tr>
+                <td>Spécialités</td>
+                <td>Nomenclature militaire</td>
+              </tr>
+              <tr>
+                <td>Grades militaires</td>
+                <td>Nomenclature militaire</td>
+              </tr>
+              <tr>
+                <td>Hiérarchie</td>
+                <td>Nomenclature militaire</td>
+              </tr>
+              <tr>
+                <td>Appelations</td>
+                <td>Nomenclature militaire</td>
+              </tr>
+            </tbody>
+          </table>
+        </dd>
+      </dl>
     </div>
-    <section class="tpl-documentation tpl-panel tpl-bg--lightest-grey">
-      <div class="tpl-container">
-        <aside class="tpl-documentation__sidebar">
-          <nav class="tpl-documentation__links">
-            <a class="tpl-documentation__link tpl-documentation__link--active">Description</a>
-            <a class="tpl-documentation__link">Liste des données</a>
-            <a class="tpl-documentation__link">Documentaion technique</a>
-            <a class="tpl-documentation__link">Réutilisations</a>
-            <a class="tpl-documentation__link">Contact de l’API</a>
-            <a class="tpl-documentation__link">Licence</a>
-            <button class="tpl-button primary">Tester l’API <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#arrow-up-right"></use></svg></button>
-          </nav>
-        </aside>
-        <div class="tpl-documentation__content">
-          <dl class="tpl-description-list">
-            <dt>Description</dt>
-            <dd>L’API Nomenclature permet d’accéder à toutes les nomenclatures noyau gérées dans l’application Ingres du CISIRH, soit plus de 350 nomenclatures accessibles.</dd>
-            <dt>Licence</dt>
-            <dd>Le CISIRH met à disposition cette API exploitable accessible uniquement par les ministères ou institutions ayant accès au Réseau Interministériel de l’Etat (RIE). Son utilisation par une application tierce ne saurait engager la responsabilité du CISIRH, par exemple, en termes de disponibilité.</dd>
-            <dt>Limite d’usage</dt>
-            <dd>Pour le moment, en dehors de certaines nomenclatures RCC ou externes pour lesquelles nous avons eu des demandes particulières (corps, grades, hexaposte…) seuls le code, les libellés court et long et la période de validité sont restitués par l’API pour 99% des nomenclatures.</dd>
-            <dt>Liste des données</dt>
-            <dd>
-              <table class="tpl-table">
-                <thead>
-                  <tr>
-                    <th>Nom</th>
-                    <th>Type</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Catégories</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Corps</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Grade</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Emplois</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Fonctionnels</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Groupe dans un emploi fonctionnel</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Grilles</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Échelons</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Indices</td>
-                    <td>Nomenclature RCC</td>
-                  </tr>
-                  <tr>
-                    <td>Spécialités</td>
-                    <td>Nomenclature militaire</td>
-                  </tr>
-                  <tr>
-                    <td>Grades militaires</td>
-                    <td>Nomenclature militaire</td>
-                  </tr>
-                  <tr>
-                    <td>Hiérarchie</td>
-                    <td>Nomenclature militaire</td>
-                  </tr>
-                  <tr>
-                    <td>Appelations</td>
-                    <td>Nomenclature militaire</td>
-                  </tr>
-                </tbody>
-              </table>
-            </dd>
-          </dl>
-        </div>
-      </div>
-    </section>
-    <div class="tpl-container">
-      <pre class="tpl-pre"><code class="tpl-code">&lt;section class="tpl-documentation panel tpl-bg--lightest-grey">
-  &lt;div class="tpl-container">
-    &lt;aside class="tpl-documentation__sidebar">
-      &lt;nav class="tpl-documentation__links">
-        &lt;a class="tpl-documentation__link documentation__link--active">Description&lt;/a>
-        &lt;a class="tpl-documentation__link">Liste des données&lt;/a>
-        &lt;a class="tpl-documentation__link">Documentaion technique&lt;/a>
-        &lt;a class="tpl-documentation__link">Réutilisations&lt;/a>
-        &lt;a class="tpl-documentation__link">Contact de l’API&lt;/a>
-        &lt;a class="tpl-documentation__link">Licence&lt;/a>
-        &lt;button class="tpl-button primary">Tester l’API &lt;svg class="tpl-icon" viewBox="0 0 24 24">&lt;use xlink:href="#arrow-up-right">&lt;/use>&lt;/svg>&lt;/button>
-      &lt;/nav>
-    &lt;/aside>
-    &lt;div class="tpl-documentation__content">
-      &lt;dl>
-        &lt;dt>Description&lt;/dt>
-        &lt;dd>L’API Nomenclature permet d’accéder à toutes les nomenclatures noyau gérées dans l’application Ingres du CISIRH, soit plus de 350 nomenclatures accessibles.&lt;/dd>
-        &lt;dt>Licence&lt;/dt>
-        &lt;dd>Le CISIRH met à disposition cette API exploitable accessible uniquement par les ministères ou institutions ayant accès au Réseau Interministériel de l’Etat (RIE). Son utilisation par une application tierce ne saurait engager la responsabilité du CISIRH, par exemple, en termes de disponibilité.&lt;/dd>
-        &lt;dt>Limite d’usage&lt;/dt>
-        &lt;dd>Pour le moment, en dehors de certaines nomenclatures RCC ou externes pour lesquelles nous avons eu des demandes particulières (corps, grades, hexaposte…) seuls le code, les libellés court et long et la période de validité sont restitués par l’API pour 99% des nomenclatures.&lt;/dd>
-        &lt;dt>Liste des données&lt;/dt>
-        &lt;dd>
-          &lt;table class="tpl-table">
-            &lt;thead>
-              &lt;tr>
-                &lt;th>Nom&lt;/th>
-                &lt;th>Type&lt;/th>
-              &lt;/tr>
-            &lt;/thead>
-            &lt;tbody>
-              &lt;tr>
-                &lt;td>Catégories&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Corps&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Grade&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Emplois&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Fonctionnels&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Groupe dans un emploi fonctionnel&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Grilles&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Échelons&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Indices&lt;/td>
-                &lt;td>Nomenclature RCC&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Spécialités&lt;/td>
-                &lt;td>Nomenclature militaire&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Grades militaires&lt;/td>
-                &lt;td>Nomenclature militaire&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Hiérarchie&lt;/td>
-                &lt;td>Nomenclature militaire&lt;/td>
-              &lt;/tr>
-              &lt;tr>
-                &lt;td>Appelations&lt;/td>
-                &lt;td>Nomenclature militaire&lt;/td>
-              &lt;/tr>
-            &lt;/tbody>
-          &lt;/table>
-        &lt;/dd>
-      &lt;/dl>
-    &lt;/div>
-  &lt;/div>
-&lt;/section></code></pre>
+  </div>
+</section>{{< /sample >}}
     </div>
   </div>
 </div>

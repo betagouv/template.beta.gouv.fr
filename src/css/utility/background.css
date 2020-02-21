@@ -72,11 +72,11 @@
 }
 
 .tpl-bg--info {
-    background-color: var(--info);
+  background-color: var(--info);
 }
 
 .tpl-bg--warning {
-    background-color: var(--warning);
+  background-color: var(--warning);
 }
 
 .tpl-bg--gradient {
