@@ -20,6 +20,7 @@
 .tpl-documentation__link {
   padding: var(--spacing-xs) var(--spacing-m);
   border: 1px solid transparent;
+  text-decoration: none;
 }
 
 .tpl-documentation__link--active {

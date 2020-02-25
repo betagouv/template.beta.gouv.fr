@@ -51,19 +51,19 @@
   margin-bottom: 0;
 }
 
-.tpl-button.primary.hover {
+.tpl-button.tpl-button--primary.hover {
   background-color: var(--button-bg-primary-hover);
 }
 
-.tpl-button.secondary.hover {
+.tpl-button.tpl-button--secondary.hover {
   background-color: var(--button-bg-secondary-hover);
 }
 
-.tpl-button.alternate.hover {
+.tpl-button.tpl-button--alternate.hover {
   border-color: var(--button-border-alternate-hover);
 }
 
-.tpl-button.gradient.hover {
+.tpl-button.tpl-button--gradient.hover {
   background: linear-gradient(to right, var(--primary-dark), var(--primary));
 }
 
