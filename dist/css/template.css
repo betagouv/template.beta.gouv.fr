@@ -229,31 +229,31 @@ section {
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-Regular.otf");
+  src: url("../fonts/Source Sans Pro/SourceSansPro-Regular.otf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-Bold.otf");
+  src: url("../fonts/Source Sans Pro/SourceSansPro-Bold.otf");
   font-weight: 800;
 }
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-It.otf");
+  src: url("../fonts/Source Sans Pro/SourceSansPro-It.otf");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Evolventa";
-  src: url("fonts/Evolventa/Evolventa-Regular.ttf");
+  src: url("../fonts/Evolventa/Evolventa-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Evolventa";
-  src: url("fonts/Evolventa/Evolventa-Bold.ttf");
+  src: url("../fonts/Evolventa/Evolventa-Bold.ttf");
   font-weight: 800;
 }
 
@@ -1614,6 +1614,7 @@ a.tpl-step:hover {
   padding: 0.5rem 1.5rem;
   padding: var(--spacing-xs) var(--spacing-m);
   border: 1px solid transparent;
+  text-decoration: none;
 }
 
 .tpl-documentation__link--active {

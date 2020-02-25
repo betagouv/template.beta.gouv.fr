@@ -1,6 +1,6 @@
 {
   "name": "template.beta.gouv.fr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A CSS UI kit for betagouv and friends",
   "devDependencies": {
     "copyfiles": "^2.2.0",
@@ -14,18 +14,18 @@
     "theo": "^8.1.5"
   },
   "scripts": {
-    "generate-custom-properties": "theo src/tokens/app.json  --transform web --format custom-properties.css --dest dist",
+    "generate-custom-properties": "theo src/tokens/app.json  --transform web --format custom-properties.css --dest src/css",
     "lint-fix": "stylelint --fix src/css/**/*.css",
     "lint": "stylelint src/css/**/*.css",
-    "build-css": "npm run generate-custom-properties && postcss --output dist/template.css src/css/template.css && NODE_ENV=production postcss --output dist/template.min.css src/css/template.css",
+    "build-css": "npm run generate-custom-properties && postcss --output dist/css/template.css src/css/template.css && NODE_ENV=production postcss --output dist/css/template.min.css src/css/template.css",
     "build-resources": "copyfiles -f src/img/* dist/img && copyfiles -f src/img/icons/**/* dist/img/icons && copyfiles -f 'src/fonts/Source Sans Pro/*' 'dist/fonts/Source Sans Pro/' && copyfiles -f 'src/fonts/Evolventa/*' 'dist/fonts/Evolventa/'",
     "build": "rm -Rf dist && npm run build-resources && npm run build-css",
     "prepublishOnly": "npm run build"
   },
   "author": "beta.gouv.fr",
   "license": "MIT",
-  "style": "dist/template.min.css",
-  "main": "dist/template.css",
+  "style": "dist/css/template.min.css",
+  "main": "dist/css/template.css",
   "files": [
     "dist"
   ],
