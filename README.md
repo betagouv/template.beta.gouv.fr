@@ -2,7 +2,7 @@
 
 **Qu'est ce que c'est :** un template CSS ouvert à tous, à destination des équipes betagouv & friends.
 
-![npm version](https://badgen.net/npm/v/template.beta.gouv.fr)
+[![npm version](https://badgen.net/npm/v/template.beta.gouv.fr)](https://www.npmjs.com/package/template.beta.gouv.fr)
 
 ## Utiliser template.beta.gouv
 
