@@ -1,6 +1,6 @@
 {
   "name": "template.beta.gouv.fr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A CSS UI kit for betagouv and friends",
   "devDependencies": {
     "copyfiles": "^2.2.0",

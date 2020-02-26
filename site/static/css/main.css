@@ -1,0 +1,142 @@
+.elements .tpl-description-list {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.elements .tpl-description-list dt {
+  flex-basis: 10em;
+}
+
+.elements .tpl-description-list dd {
+  flex-grow: 1;
+}
+
+.colors .tpl-flex-row {
+  flex-wrap: wrap;
+}
+
+.colors .tpl-flex-row + .tpl-flex-row {
+  margin-top: var(--spacing-m);
+}
+
+.color {
+  font-size: 14px;
+  width: 10em;
+  margin: 0 var(--spacing-s) var(--spacing-xs) 0;
+}
+
+.color h3 {
+  margin-top: var(--spacing-xs);
+  margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+.color__swatch {
+  height: var(--spacing-m);
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.color__swatch.tpl-bg--white {
+  border-color: var(--lighter-grey);
+}
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+  margin-bottom: 0;
+}
+
+.tpl-button.tpl-button--primary.hover {
+  background-color: var(--button-bg-primary-hover);
+}
+
+.tpl-button.tpl-button--secondary.hover {
+  background-color: var(--button-bg-secondary-hover);
+}
+
+.tpl-button.tpl-button--alternate.hover {
+  border-color: var(--button-border-alternate-hover);
+}
+
+.tpl-button.tpl-button--gradient.hover {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary));
+}
+
+.buttons .tpl-description-list dd,
+.icon-buttons .tpl-description-list dd {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons .tpl-button {
+  margin: 0 var(--spacing-xs);
+}
+
+.icons .tpl-icon {
+  height: 2em;
+  width: 2em;
+}
+
+.icons .tpl-description-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  grid-template-rows: 1fr min-content;
+  grid-gap: var(--spacing-m);
+  margin-top: var(--spacing-xl);
+}
+
+.icons__group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: var(--spacing-m);
+}
+
+ .tpl-description-list .icons__group dt {
+  flex-basis: auto;
+  order: 2;
+}
+
+.tpl-description-list .icons__group dd {
+  order: 1;
+}
+
+input.focus {
+  border-color: var(--primary);
+}
+
+.forms .fieldsets {
+  justify-content: space-between;
+}
+
+.tpl-notification + .tpl-notification {
+  margin-top: var(--spacing-xs);
+}
+
+svg.reliability {
+  fill: var(--success);
+}
+
+.cards .tpl-card {
+  flex-basis: 20em;
+  flex-shrink: 0;
+}
+
+.tpl-pre {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  max-height: 25em;
+  overflow-y: scroll;
+}
+
+.cards .tpl-pre {
+  margin: var(--spacing-xs);
+}

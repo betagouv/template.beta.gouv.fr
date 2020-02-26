@@ -1,6 +1,10 @@
-baseURL = "https://betagouv.github.io/template.beta.gouv.fr/"
 languageCode = "fr-fr"
 title = "template.beta.gouv.fr"
 theme = "template.beta.gouv.fr"
 relativeURLs = true
 sectionPagesMenu = "main"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+pluralizelisttitles = false

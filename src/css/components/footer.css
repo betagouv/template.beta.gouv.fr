@@ -14,10 +14,6 @@
   max-width: 40%;
 }
 
-.tpl-footer__links a {
-  text-decoration: none;
-}
-
 .tpl-footer__links a:hover {
   background-color: var(--black);
 }

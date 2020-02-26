@@ -36,7 +36,7 @@
   letter-spacing: normal;
 }
 
-.tpl-label.tpl--required::before {
+.tpl-label.tpl-label--required::before {
   content: '✱';
   color: var(--danger);
   font-weight: 700;
@@ -177,12 +177,12 @@ select {
   -moz-appearance: none;
 }
 
-input.tpl--success {
+input.tpl-input--success {
   border-color: var(--success);
   background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIyIDExLjA4VjEyYTEwIDEwIDAgMTEtNS45My05LjE0IiBzdHJva2U9IiMxN0JEM0QiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTIyIDRMMTIgMTQuMDFsLTMtMyIgc3Ryb2tlPSIjMTdCRDNEIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgo=') right 1em center no-repeat;
 }
 
-input.tpl--error {
+input.tpl-input--error {
   border-color: var(--danger);
   background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjI5IDMuODZMMS44MiAxOGEyIDIgMCAwMDEuNzEgM2gxNi45NGEyIDIgMCAwMDEuNzEtM0wxMy43MSAzLjg2YTIgMiAwIDAwLTMuNDIgMHYwek0xMiA5djRNMTIgMTZ2LjUiIHN0cm9rZT0iI0RDMzU0NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4K') right 1em center no-repeat;
 }

@@ -18,6 +18,10 @@
   justify-content: space-between;
 }
 
+.tpl-flex-jc-sa {
+  justify-content: space-around;
+}
+
 .tpl-flex-ai-center {
   align-items: center;
 }

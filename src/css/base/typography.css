@@ -18,32 +18,33 @@ h6 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.125em;
 }
 
 h2 {
-  font-size: 2.375em;
+  font-size: 1.75em;
   line-height: 1.25em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.125em;
   text-transform: uppercase;
 }
 
 h5 {
-  font-size: 1.375em;
+  font-size: 1em;
   font-family: var(--font-family-default);
+  text-transform: uppercase;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 0.95em;
 }
 
 h1:first-child,
@@ -62,7 +63,6 @@ small {
 a {
   text-decoration-skip-ink: none;
   text-decoration-color: var(--link-underline-color);
-  text-decoration-thickness: var(--link-underline-thickness);
   text-underline-offset: var(--link-underline-offset);
 }
 

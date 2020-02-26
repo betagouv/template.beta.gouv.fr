@@ -20,6 +20,11 @@
   background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjI5IDMuODZMMS44MiAxOGEyIDIgMCAwMDEuNzEgM2gxNi45NGEyIDIgMCAwMDEuNzEtM0wxMy43MSAzLjg2YTIgMiAwIDAwLTMuNDIgMHYwek0xMiA5djRNMTIgMTZ2LjUiIHN0cm9rZT0iI0RDMzU0NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4K') left 0.75em top 0.5em no-repeat;
 }
 
+.tpl-notification.tpl-notification--no-icon {
+  background: 0;
+  padding-left: var(--spacing-m);
+}
+
 .tpl-notification .tpl-close {
   color: var(--black);
   font-size: 1em;
