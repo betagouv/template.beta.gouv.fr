@@ -14,6 +14,7 @@
     "theo": "^8.1.5"
   },
   "scripts": {
+    "build-site-and-publish": "cd site && ./deploy.sh && cd ..",
     "generate-custom-properties": "theo src/tokens/app.json  --transform web --format custom-properties.css --dest src/css",
     "lint-fix": "stylelint --fix src/css/**/*.css",
     "lint": "stylelint src/css/**/*.css",
