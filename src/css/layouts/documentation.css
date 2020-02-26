@@ -40,6 +40,10 @@
   width: 0.5em;
 }
 
+.tpl-documentation__content {
+  flex-grow: 1;
+}
+
 .tpl-documentation__content dt {
   font-family: var(--font-family-title);
   font-weight: 700;

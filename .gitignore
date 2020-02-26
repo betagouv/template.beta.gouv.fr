@@ -1,3 +1,5 @@
+site/public
+
 # Apple specific
 .DS_Store
 .AppleDouble
