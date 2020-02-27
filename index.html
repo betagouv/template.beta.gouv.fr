@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="https://betagouv.github.io/template.beta.gouv.fr/">
+  <base href="">
   <title>template.beta.gouv.fr</title>
 
   <link rel="stylesheet" href="./css/template.min.css">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./css/main.css">
   <script type="text/javascript">
     if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
       document.write('<script src="https://unpkg.com/@babel/polyfill@7.0.0/dist/polyfill.js"><\/script>');
@@ -16,7 +16,7 @@
     }
   </script>
   
-  <meta name="description" content="https://betagouv.github.io/template.beta.gouv.fr/">
+  <meta name="description" content="">
   <meta name="image" content="">
   
   <meta itemprop="name" content="template.beta.gouv.fr">
@@ -3056,6 +3056,11 @@
       d="M6 20v-2h2v1a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-2h3v1a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm-4 0V4h20v14h-2v-4h-2v1h-3v-1h-2v5h-3v-5H8v2H6v-2H4v6H2zM19 6v2H5V6h14zm-3 6v-2H5v2h11z"
       fill="currentColor"/></g>
   </symbol>
+  <symbol id="cc" viewBox="0 0 24 24">
+    <title>cc</title>
+    <g class="nc-icon-wrapper"><path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23C18.0751 23 23 18.0751 23 12ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12ZM10.2076 13.4797L11.5844 14.9304C10.8657 15.6124 9.9207 16 8.91768 16C6.74768 16 5 14.203 5 12C5 9.79699 6.74768 8 8.91768 8C9.98883 8 10.9921 8.44215 11.7233 9.20811L10.2767 10.5891C9.9176 10.213 9.4343 10 8.91768 10C7.8649 10 7 10.8893 7 12C7 13.1107 7.8649 14 8.91768 14C9.40135 14 9.85576 13.8136 10.2076 13.4797ZM18.5844 14.9304L17.2076 13.4797C16.8558 13.8136 16.4013 14 15.9177 14C14.8649 14 14 13.1107 14 12C14 10.8893 14.8649 10 15.9177 10C16.4343 10 16.9176 10.213 17.2767 10.5891L18.7233 9.20811C17.9921 8.44215 16.9888 8 15.9177 8C13.7477 8 12 9.79699 12 12C12 14.203 13.7477 16 15.9177 16C16.9207 16 17.8657 15.6124 18.5844 14.9304Z" fill="currentColor"/>
+    </svg></g>
+  </symbol>
 </svg>
 <header class="tpl-main-header" role="banner">
   <a class="tpl-main-header__link" href="./">
@@ -3071,36 +3076,36 @@
     <ul class="tpl-site-nav__links">
       
       <li class="tpl-site-nav__item">
-        <a href="./template.beta.gouv.fr/elements/" title="Élements">Élements</a>
+        <a href="./documentation/" title="Documentation">Documentation</a>
       </li>
       
       <li class="tpl-site-nav__item">
-        <a href="./template.beta.gouv.fr/components/" title="Composants">Composants</a>
-      </li>
-      
-      <li class="tpl-site-nav__item">
-        <a href="./template.beta.gouv.fr/layouts/" title="Layouts">Layouts</a>
-      </li>
-      
-      <li class="tpl-site-nav__item">
-        <a href="./template.beta.gouv.fr/icons/" title="Icônes">Icônes</a>
-      </li>
-      
-      <li class="tpl-site-nav__item">
-        <a href="./template.beta.gouv.fr/a-propos/" title="À propos">À propos</a>
+        <a href="./a-propos/" title="À propos">À propos</a>
       </li>
       
     </ul>
   </nav>
 </header>
 <main class="tpl-main" role="main">
-<section class="tpl-hero bg--gradient">
-  <div class="tpl-container">
-    <h1 class="tpl-hero__title">template.beta.gouv.fr</h1> 
-    <p class="tpl-hero__subtitle">Des ressources pour débuter mon produit sans réinventer la roue</p>
-  </div>
-</section>
-
+  <section class="tpl-hero home__hero">
+    <div class="home__description">
+      <h1>Des ressources pour débuter mon produit sans réinventer la roue</h1>
+    </div>
+    <img class="home__illustration" src="./img/femme-montagne.png" alt="" />
+  </section>
+  <section class="tpl-section home__ressources">
+    <div class="tpl-container">
+      <h2>Les ressources à votre disposition</h2>
+      <div class="tpl-flex-row">
+        <div class="ressource">
+          <a class="tpl-button tpl-button--primary" href="documentation">Une bibliothèque CSS</a>
+        </div>
+        <div class="ressource">
+          <a class="tpl-button tpl-button--primary" href="illustrations">Une banque d’illustrations</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
     </main><footer class="tpl-footer" role="contentinfo">
   <div class="tpl-container">
@@ -3122,14 +3127,12 @@
         </li>
         <li>
           <a href="https://twitter.com/betagouv">
-            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#twitter"></use></svg>
-            @betagouv
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#twitter"></use></svg>@betagouv
           </a>
         </li>
         <li>
           <a href="./">
-            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#mail"></use></svg>
-            Lettre d’information
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#mail"></use></svg>Lettre d’information
           </a>
         </li>
       </ul>
@@ -3139,8 +3142,7 @@
         </li>
         <li>
           <a href="./">
-            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#github"></use></svg>
-            Améliorer ce site
+            <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#github"></use></svg>Améliorer ce site
           </a>
         </li>
       </ul>

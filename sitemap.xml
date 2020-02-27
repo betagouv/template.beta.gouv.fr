@@ -3,41 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/a-propos/</loc>
+    <loc>/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/documentation/icons/</loc>
+  </url>
+  
+  <url>
+    <loc>/illustrations/</loc>
+  </url>
+  
+  <url>
+    <loc>/documentation/layouts/</loc>
+  </url>
+  
+  <url>
+    <loc>/documentation/components/</loc>
+  </url>
+  
+  <url>
+    <loc>/documentation/elements/</loc>
+  </url>
+  
+  <url>
+    <loc>/a-propos/</loc>
     <lastmod>2020-01-10T02:58:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/components/</loc>
-    <lastmod>2020-01-09T03:08:37+01:00</lastmod>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/icons/</loc>
-    <lastmod>2020-01-09T03:08:37+01:00</lastmod>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/layouts/</loc>
-    <lastmod>2020-01-09T03:08:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/</loc>
-    <lastmod>2020-01-09T03:08:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/elements/</loc>
-    <lastmod>2020-01-09T03:08:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://betagouv.github.io/template.beta.gouv.fr/tags/</loc>
+    <loc>/</loc>
   </url>
   
 </urlset>
