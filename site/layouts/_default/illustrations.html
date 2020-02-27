@@ -7,7 +7,8 @@
       <div class="tpl-grid">
         {{ range .items }}
           <div class="img__ressource">
-            <img src="img/{{ $folder }}/{{ . }}@0,25x.png" alt="{{ . }}"/>
+            {{ $path := printf "img/%s/%s" $folder . }}
+            <img src="{{ printf "%s@0,25x.png" $path | relURL }}" alt="{{ . }}"/>
             <div class="img__download-buttons">
               <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">0,25x</a>
               <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">0,5x</a>
