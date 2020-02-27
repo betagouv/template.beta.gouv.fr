@@ -1,0 +1,14 @@
+[[domain]]
+name = "Administratif"
+folder = "illu_administratif"
+items = ["administration", "aidants", "droits", "Femme-particulier", "Femme-professionnel", "Homme-particulier", "Homme-professionnel", "pieces-justificatives", "securisation-pieces-justificatives", "verification-identite"]
+
+[[domain]]
+name = "Agriculture"
+folder = "illu_agriculture"
+items = ["agriculteur-patate", "agriculteur-tablette", "agriculteurs-echanges", "agriculteurs-salade", "agriculteurs-tracteur", "agriculture-champ"]
+
+[[domain]]
+name = "Emploi/handicap"
+folder = "illu_emploi-handicap"
+items = ["balayeuse", "cyclistes-tandem", "Embauche", "entretient-fauteuil-roulant", "femme-auteuil-roulant-chantier", "femme-montagne", "femme-trampoline", "femmes-canape", "fleuriste-fauteuil-roulant", "handi-basketeur", "homme-bequille", "homme-chaise", "skateur", "yoga-accrobatique"]

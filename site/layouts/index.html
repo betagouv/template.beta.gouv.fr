@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="tpl-hero home__hero">
+    <div class="home__description">
+      {{ with .Description }}<h1>{{ . }}</h1>{{ end }}
+    </div>
+    <img class="home__illustration" src="/img/femme-montagne.png" alt="" />
+  </section>
+  <section class="tpl-section home__ressources">
+    <div class="tpl-container">
+      <h2>Les ressources à votre disposition</h2>
+      <div class="tpl-flex-row">
+        <div class="ressource">
+          <a class="tpl-button tpl-button--primary" href="{{ .Site.BaseURL }}documentation">Une bibliothèque CSS</a>
+        </div>
+        <div class="ressource">
+          <a class="tpl-button tpl-button--primary" href="{{ .Site.BaseURL }}illustrations">Une banque d’illustrations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

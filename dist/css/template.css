@@ -1593,7 +1593,7 @@ a.tpl-step:hover {
 
 .tpl-hero__title {
   margin: 0;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .tpl-hero__title-with-avatar {
@@ -1842,6 +1842,11 @@ a.tpl-step:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.tpl-flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .tpl-flex-ai-center {
