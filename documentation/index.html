@@ -3090,27 +3090,97 @@
   </nav>
 </header>
 <main class="tpl-main" role="main">
-<section class="tpl-hero ">
+<section class="tpl-hero tpl-bg--gradient">
   <div class="tpl-container">
     <h1 class="tpl-hero__title">Documentation</h1> 
     
   </div>
 </section>
 
-<div class="tpl-container">
-    <div class="tpl-flex-row tpl-flex-jc-sa">
-      
-        <a class="tpl-button tpl-button--primary" href="../documentation/elements/">Élements</a>
-      
-        <a class="tpl-button tpl-button--primary" href="../documentation/components/">Composants</a>
-      
-        <a class="tpl-button tpl-button--primary" href="../documentation/layouts/">Layouts</a>
-      
-        <a class="tpl-button tpl-button--primary" href="../documentation/icons/">Icônes</a>
-      
-    </div>
-  </div>
+<section class="tpl-section documentation-index">
+  <div class="tpl-container">
+<h2 id="templatebetagouvfr">template.beta.gouv.fr</h2>
+<p><strong>Qu'est ce que c'est :</strong> un template CSS ouvert à tous, à destination des équipes betagouv &amp; friends.</p>
+<h3 id="utiliser-templatebetagouv-pour-les-dveloppeureuses">Utiliser template.beta.gouv pour les développeur·euse·s</h3>
+<div class="tpl-notification tpl--danger">
+  <span>Si vous utilisiez template.data.gouv.fr, cette nouvelle version risque de casser vos styles actuels</span>
+  <button class="tpl-close" aria-label="Fermer">
+    <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#circle-x"></use></svg>
+  </button>
+</div>
 
+<h4 id="voir-les-styles">Voir les styles</h4>
+<ul>
+<li><a href="documentation/elements">Élements</a></li>
+<li><a href="documentation/components">Composants</a></li>
+<li><a href="documentation/layouts">Layouts</a></li>
+<li><a href="documentation/icons">Icônes</a></li>
+</ul>
+<h4 id="tlcharger-les-fichier-plats">Télécharger les fichier plats</h4>
+<p>Vous pouvez télécharger les sources du template minifiées <a href="dist/">ici</a>.</p>
+<h4 id="faire-un-import-html">Faire un import HTML</h4>
+<p>Vous pouvez faire des imports HTML du template en ajoutant ces liens entre les balises <code>&lt;head&gt;</code> de votre fichier <code>index.html</code> :</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> main CSS </span><span style="color:#75715e">--&gt;</span>
+&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://unpkg.com/template.beta.gouv.fr@latest/dist/template.min.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="installer-le-paquet-npm">Installer le paquet npm</h4>
+<p>Vous pouvez installer le paquet npm sur votre projet :</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  npm install --save template.beta.gouv.fr
+</code></pre></td></tr></table>
+</div>
+</div><p>Puis importer le fichier dans votre projet :</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  import <span style="color:#e6db74">&#39;template.data.gouv.fr/dist/css/template.css&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="construire-votre-propre-version-du-template">Construire votre propre version du template</h3>
+<p>Vous êtes bien entendu libres (et encouragés !) de cloner ce dépôt, le modifier et d’y contribuer !</p>
+<h4 id="structure-du-repos">Structure du repos</h4>
+<dl class="tpl-description-list">
+  <dt>site :</dt><dd>les fichiers du site vitrine de template</dd>
+  <dt>dist :</dt><dd>les fichiers du template minifiés</dd>
+  <dt>src :</dt><dd>le code source non minifié</dd>
+</dl>
+<h4 id="gnrer-les-fichiers-template">Générer les fichiers template</h4>
+<p>Pour build le template :</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  npm run build
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="contribuer">Contribuer</h4>
+<p>N'hésitez pas a passer un coup de linter et à corriger les erreurs si il y en a :</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  npm run lint
+</code></pre></td></tr></table>
+</div>
+</div><p>Une fois votre code propre, ouvrez une PR sur ce dépôt.</p>
+<h3 id="licence">Licence</h3>
+<p>2020 DINUM</p>
+<p>Cette application est publiée sous <a href="LICENSE">licence MIT</a>.</p>
 
 
     </main><footer class="tpl-footer" role="contentinfo">
@@ -3147,7 +3217,7 @@
           <h3>Contribuer</h3>
         </li>
         <li>
-          <a href="../">
+          <a href="https://github.com/betagouv/template.beta.gouv.fr">
             <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#github"></use></svg>Améliorer ce site
           </a>
         </li>

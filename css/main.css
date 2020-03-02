@@ -47,7 +47,11 @@
   flex-grow: 0;
   display: flex;
   justify-content: space-around;
-  padding: var(--spacing-s);
+  margin-bottom: var(--spacing-s);
+}
+
+.img__download-buttons .tpl-button {
+  margin: var(--spacing-xs);
 }
 
 .elements .tpl-description-list {
@@ -191,4 +195,12 @@ svg.reliability {
 
 .cards .tpl-pre {
   margin: var(--spacing-xs);
+}
+
+.documentation-index .item-list {
+  margin: var(--spacing-xl) 0;
+}
+
+.documentation-index .tpl-description-list dt,
+.documentation-index .tpl-description-list dd {
 }
