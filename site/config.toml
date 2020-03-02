@@ -8,3 +8,7 @@ sectionPagesMenu = "main"
 unsafe = true
 
 pluralizelisttitles = false
+
+[markup]
+  [markup.highlight]
+    lineNos = true

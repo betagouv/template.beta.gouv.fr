@@ -11,9 +11,9 @@
             <img src="{{ printf "%s@0,25x.png" $path | relURL }}" alt="{{ . }}"/>
             <div class="img__download-buttons">
               <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">0,25x</a>
-              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">0,5x</a>
-              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">0,75x</a>
-              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,25x.png">1x</a>
+              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,5x.png">0,5x</a>
+              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}@0,75x.png">0,75x</a>
+              <a class="tpl-button tpl-button--alternate" href="img/{{ $folder }}/{{ . }}.png">1x</a>
             </div>
           </div>
         {{ end }}

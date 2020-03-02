@@ -1,12 +1,26 @@
 {{ define "main" }}
-  {{- partial "hero.html" . -}}
-  <div class="tpl-container">
-    <div class="tpl-flex-row tpl-flex-jc-sa">
+
+  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+
+
+  <div class="row"><div class="col-md-11 col-md-offset-1">
+
+  <table class="table-stripped">
+    <tr>
+      <th>Date Modified</th>
+      <th>Title</th>
+      <th>Category</th>
+    </tr>
       {{ range .Data.Pages.ByLastmod.Reverse }}
-        <a class="tpl-button tpl-button--primary" href="{{ .Permalink }}">{{ .Title }}</a>
+        <tr>
+          <td width="20%">{{ .Date.Format "Jan 2, 2006" }}</td>
+          <td width="65%"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+          <td width="10%">{{ .Params.categories }}</td>
+        </tr>
       {{ end }}
-    </div>
-  </div>
+  </table>
+
+  </div></div>
 
 
 {{ end }}

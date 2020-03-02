@@ -25,24 +25,24 @@ Vous pouvez installer le paquet npm sur votre projet :
 ```bash
   npm install --save template.beta.gouv.fr
 ```
- 
+
 Puis importer le fichier dans votre projet :
 ```
-  import 'template.data.gouv.fr/dist/template.css'
+  import 'template.data.gouv.fr/dist/css/template.css'
 ```
 
 ## Construire votre propre version du template
 
-Vous êtes bien entendu libres (et encouragés!) de cloner ce repository, le modifier et d’y contribuer !
+Vous êtes bien entendu libres (et encouragés !) de cloner ce dépôt, le modifier et d’y contribuer !
 
 ### Structure du repos
 ```
-site : les fichiers du site vitrine de template 
+site : les fichiers du site vitrine de template
 dist : les fichiers du template minifiés
 src : le code source non minifié
 ```
 
-### Générer les template
+### Générer les fichiers template
 
 Pour build le template :
 ```bash
@@ -56,7 +56,7 @@ N'hésitez pas a passer un coup de linter et à corriger les erreurs si il y en 
   npm run lint
 ```
 
-Une fois votre code propre, ouvrez une PR sur ce repos.
+Une fois votre code propre, ouvrez une PR sur ce dépôt.
 
 ## Licence
 
