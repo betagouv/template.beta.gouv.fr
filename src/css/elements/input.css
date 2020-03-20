@@ -175,6 +175,7 @@ select {
   background: var(--white) url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxOCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgMUw5IDlMMTcgMSIgc3Ryb2tlPSIjMjYzNTNGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K') right 1em center no-repeat;
   appearance: none;
   -moz-appearance: none;
+  padding-right: var(--spacing-xl);
 }
 
 input.tpl-input--success {
