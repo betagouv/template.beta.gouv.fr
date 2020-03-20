@@ -8,5 +8,8 @@
       {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}
+    {{ if .Params.js }}
+      <script src="{{ $.Site.BaseURL }}{{ .Params.js }}"></script>
+    {{ end }}
   </body>
 </html>

@@ -54,6 +54,11 @@
   margin: var(--spacing-xs);
 }
 
+code:not(.tpl-code) {
+  padding: var(--spacing-xs);
+  background-color: transparent;
+}
+
 .elements .tpl-description-list {
   display: flex;
   align-items: flex-end;

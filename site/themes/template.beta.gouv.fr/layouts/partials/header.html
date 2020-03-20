@@ -1,20 +1,24 @@
 <header class="tpl-main-header" role="banner">
-  <a class="tpl-main-header__link" href="/">
-    <img class="tpl-main-header__logo" src="{{ "/img/logo-marianne.svg" | relURL }}" alt="" />
-    template.beta.gouv.fr
-  </a>
+  <div class="tpl-container">
+    <a class="tpl-main-header__link" href="/">
+      <img class="tpl-main-header__logo" src="{{ "/img/bloc-marque.svg" | relURL }}" alt="" />
+      {{ .Site.Title }}
+    </a>
+  </div>
   <nav class="tpl-site-nav" role="navigation">
-    <input type="checkbox" class="tpl-site-nav__toggle" id="site-nav__toggle" aria-hidden="true" tabindex="-1" />
-    <label class="tpl-site-nav__toggle-label" for="site-nav__toggle" aria-hidden="true" tabindex="-1">
-      <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
-      menu
-    </label>
-    <ul class="tpl-site-nav__links">
-      {{ range .Site.Menus.main }}
-      <li class="tpl-site-nav__item">
-        <a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>
-      </li>
-      {{ end }}
-    </ul>
+    <div class="tpl-container">
+      <input type="checkbox" class="tpl-site-nav__toggle" id="site-nav__toggle" aria-hidden="true" tabindex="-1" />
+      <label class="tpl-site-nav__toggle-label" for="site-nav__toggle" aria-hidden="true" tabindex="-1">
+        <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
+        menu
+      </label>
+      <ul class="tpl-site-nav__links">
+        {{ range .Site.Menus.main }}
+        <li class="tpl-site-nav__item">
+          <a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
   </nav>
 </header>

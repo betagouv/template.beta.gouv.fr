@@ -11,32 +11,36 @@ heroclass: "tpl-bg--gradient"
     <div class="tpl-container">
       <h2>Header</h2>
       {{< sample >}}<header class="tpl-main-header tpl-shadow">
-  <a class="tpl-main-header__link" href="/">
-    <img class="tpl-main-header__logo" src="/img/logo-marianne.svg" alt="" />
-    template.beta.gouv.fr
-  </a>
+  <div class="tpl-container">
+    <a class="tpl-main-header__link" href="/">
+      <img class="tpl-main-header__logo" src="img/bloc-marque.svg" alt="" />
+      template.beta.gouv.fr
+    </a>
+  </div>
   <nav class="tpl-site-nav">
-    <input type="checkbox" class="tpl-site-nav__toggle" id="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1" />
-    <label class="tpl-site-nav__toggle-label" for="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1">
-      <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
-      menu</label>
-    <ul class="tpl-site-nav__links">
-      <li class="tpl-site-nav__item">
-        <a href="/elements">Éléments</a>
-      </li>
-      <li class="tpl-site-nav__item">
-        <a href="/components">Composants</a>
-      </li>
-      <li class="tpl-site-nav__item">
-        <a href="/layouts">Layouts</a>
-      </li>
-      <li class="tpl-site-nav__item">
-        <a href="/icons">Icônes</a>
-      </li>
-      <li class="tpl-site-nav__item">
-        <a href="/a-propos">À propos</a>
-      </li>
-    </ul>
+    <div class="tpl-container">
+      <input type="checkbox" class="tpl-site-nav__toggle" id="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1" />
+      <label class="tpl-site-nav__toggle-label" for="tpl-site-nav__toggle--example" aria-hidden="true" tabindex="-1">
+        <svg class="tpl-icon" viewBox="0 0 24 24"><use xlink:href="#menu-dots"></use></svg>
+        menu</label>
+      <ul class="tpl-site-nav__links">
+        <li class="tpl-site-nav__item">
+          <a href="/elements">Éléments</a>
+        </li>
+        <li class="tpl-site-nav__item">
+          <a href="/components">Composants</a>
+        </li>
+        <li class="tpl-site-nav__item">
+          <a href="/layouts">Layouts</a>
+        </li>
+        <li class="tpl-site-nav__item">
+          <a href="/icons">Icônes</a>
+        </li>
+        <li class="tpl-site-nav__item">
+          <a href="/a-propos">À propos</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>{{< /sample >}}
     </div>

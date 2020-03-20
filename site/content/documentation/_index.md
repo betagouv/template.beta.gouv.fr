@@ -19,12 +19,12 @@ heroclass: "tpl-bg--gradient"
 
 #### Voir les styles
 
-* [Élements](documentation/elements)
-* [Composants](documentation/components)
-* [Layouts](documentation/layouts)
-* [Icônes](documentation/icons)
+* [Élements]({{< ref "documentation/elements" >}})
+* [Composants]({{< ref "documentation/components" >}})
+* [Layouts]({{< ref "documentation/layouts" >}})
+* [Icônes]({{< ref "documentation/icons" >}})
 
-#### Télécharger les fichier plats
+#### Télécharger les fichiers plats
 
 Vous pouvez télécharger les sources du template minifiées [ici](dist/).
 
