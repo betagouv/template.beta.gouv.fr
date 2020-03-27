@@ -66,7 +66,7 @@
   --button-padding-x: 1rem;
   --button-text-color: rgb(255, 255, 255);
   --button-padding-y: 0.5rem;
-  --card-padding: 1.5rem;
+  --card-padding: 1rem;
   --card-border-radius: 0.25em;
   --card-image-size: 3em;
   --table-border-color: #e1e9f4;
@@ -1160,8 +1160,8 @@ input.tpl-site-nav__toggle:checked {
           flex-direction: column;
   background-color: rgb(255, 255, 255);
   background-color: var(--white);
-  margin: 0.5rem;
-  margin: var(--spacing-xs);
+  margin: 1rem;
+  margin: var(--spacing-s);
 }
 
 .tpl-card__cover {
@@ -1179,7 +1179,7 @@ input.tpl-site-nav__toggle:checked {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
 }
 
@@ -1195,7 +1195,7 @@ input.tpl-site-nav__toggle:checked {
 }
 
 .tpl-feature-card .tpl-card__header {
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
 }
 
@@ -1207,7 +1207,7 @@ input.tpl-site-nav__toggle:checked {
   width: var(--card-image-size);
   height: 3em;
   height: var(--card-image-size);
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   margin-right: var(--card-padding);
 }
 
@@ -1273,7 +1273,7 @@ input.tpl-site-nav__toggle:checked {
 }
 
 .tpl-card__content {
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -1282,7 +1282,7 @@ input.tpl-site-nav__toggle:checked {
 }
 
 .tpl-feature-card .tpl-card__content {
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
   padding-top: 0;
 }
@@ -1303,7 +1303,7 @@ input.tpl-site-nav__toggle:checked {
 }
 
 .tpl-card__extra {
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
   padding-top: 0;
   -ms-flex-negative: 1;
@@ -1311,7 +1311,7 @@ input.tpl-site-nav__toggle:checked {
 }
 
 .tpl-card__footer {
-  padding: 1.5rem;
+  padding: 1rem;
   padding: var(--card-padding);
   padding-top: 0;
   -ms-flex-negative: 1;
@@ -1510,9 +1510,6 @@ a.tpl-step:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 .tpl-documentation__sidebar {

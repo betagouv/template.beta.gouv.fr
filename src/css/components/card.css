@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  margin: var(--spacing-xs);
+  margin: var(--spacing-s);
 }
 
 .tpl-card__cover {

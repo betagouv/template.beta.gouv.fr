@@ -7,7 +7,7 @@
   },
   "props": {
     "CARD_PADDING": {
-      "value": "{!SPACING_M}",
+      "value": "{!SPACING_S}",
       "type": "padding"
     },
     "CARD_BORDER_RADIUS": {
