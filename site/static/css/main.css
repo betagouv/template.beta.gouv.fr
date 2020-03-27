@@ -30,6 +30,15 @@
   justify-content: space-around;
 }
 
+.content {
+  position: relative;
+}
+
+.sub-nav {
+  position: sticky;
+  top: 0;
+}
+
 .img__ressource {
   border: 1px solid var(--black);
   display: flex;
@@ -206,6 +215,7 @@ svg.reliability {
   margin: var(--spacing-xl) 0;
 }
 
-.documentation-index .tpl-description-list dt,
-.documentation-index .tpl-description-list dd {
+
+.tpl-site-nav__item--active {
+  background: var(--primary);
 }

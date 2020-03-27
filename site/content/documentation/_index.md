@@ -2,7 +2,7 @@
 title: "Documentation"
 weight: 1
 hero: true
-layout: single
+layout: documentation
 heroclass: "tpl-bg--gradient"
 ---
 

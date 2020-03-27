@@ -1,0 +1,11 @@
+<nav class="tpl-site-nav" role="navigation">
+  <div class="tpl-container">
+    <ul class="tpl-site-nav__links">
+      {{ range . }}
+      <li class="tpl-site-nav__item">
+        <a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
