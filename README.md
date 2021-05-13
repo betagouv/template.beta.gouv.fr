@@ -1,3 +1,5 @@
+:construction: Ce dépôt n’est plus maintenu et a été remplacé par https://template.incubateur.net (https://github.com/betagouv/template-design-system-de-l-etat) :construction:
+
 # Template.beta.gouv.fr
 
 **Qu'est ce que c'est :** un template CSS ouvert à tous, à destination des équipes betagouv & friends.
